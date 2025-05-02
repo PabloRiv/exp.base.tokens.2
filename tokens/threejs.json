@@ -1,0 +1,123 @@
+{
+  "exp": {
+    "three": {
+      "light": {
+        "intensity": {
+          "low": {
+            "value": 0.5,
+            "comment": "Low-intensity light for ambient scenes"
+          },
+          "medium": {
+            "value": 1,
+            "comment": "Standard intensity for balanced lighting"
+          },
+          "high": {
+            "value": 2,
+            "comment": "High intensity for spotlight effects"
+          }
+        },
+        "color": {
+          "warm": {
+            "value": "#FFDDC1",
+            "comment": "Warm light color for cozy environments"
+          },
+          "cool": {
+            "value": "#C1EFFF",
+            "comment": "Cool light color for modern or sci-fi themes"
+          },
+          "neutral": {
+            "value": "#FFFFFF",
+            "comment": "Neutral white light for general purpose"
+          }
+        }
+      },
+      "material": {
+        "metalness": {
+          "none": {
+            "value": 0,
+            "comment": "Non-metallic surfaces"
+          },
+          "semi": {
+            "value": 0.5,
+            "comment": "Semi-metallic surfaces"
+          },
+          "full": {
+            "value": 1,
+            "comment": "Fully metallic surfaces"
+          }
+        },
+        "roughness": {
+          "smooth": {
+            "value": 0.1,
+            "comment": "Very smooth surfaces with a glossy finish"
+          },
+          "semiRough": {
+            "value": 0.5,
+            "comment": "Moderately rough surfaces"
+          },
+          "rough": {
+            "value": 1,
+            "comment": "Fully rough surfaces with matte finish"
+          }
+        }
+      },
+      "camera": {
+        "fov": {
+          "default": {
+            "value": 75,
+            "comment": "Default field of view for perspective camera"
+          },
+          "wide": {
+            "value": 90,
+            "comment": "Wider field of view for immersive scenes"
+          },
+          "narrow": {
+            "value": 50,
+            "comment": "Narrow field of view for close-ups"
+          }
+        },
+        "position": {
+          "default": {
+            "value": [0, 1, 5],
+            "comment": "Standard camera position"
+          },
+          "closeUp": {
+            "value": [0, 1, 2],
+            "comment": "Closer position for focused shots"
+          },
+          "highAngle": {
+            "value": [0, 5, 5],
+            "comment": "Higher angle for overhead views"
+          }
+        }
+      },
+      "transform": {
+        "rotation": {
+          "x": {
+            "value": "0.01",
+            "comment": "Slight rotation on the X-axis for dynamic positioning"
+          },
+          "y": {
+            "value": "0.01",
+            "comment": "Slight rotation on the Y-axis for orbit animations"
+          }
+        },
+        "scale": {
+          "small": {
+            "value": "0.5",
+            "comment": "Small scale for thumbnails or previews"
+          },
+          "default": {
+            "value": "1",
+            "comment": "Default scale"
+          },
+          "large": {
+            "value": "2",
+            "comment": "Larger scale for emphasis or focused views"
+          }
+        }
+      }
+    }
+  }    
+}
+  

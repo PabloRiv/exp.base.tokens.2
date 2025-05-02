@@ -1,0 +1,178 @@
+{
+  "exp": {
+    "color": {
+      "primary": {
+        "100": { "value": "hsl(270, 75%, 95%)", "comment": "Primary lightest" },
+        "200": { "value": "hsl(270, 70%, 85%)", "comment": "Primary very light" },
+        "300": { "value": "hsl(270, 65%, 75%)", "comment": "Primary light" },
+        "400": { "value": "hsl(270, 60%, 65%)", "comment": "Primary lighter" },
+        "500": { "value": "hsl(270, 55%, 55%)", "comment": "Primary base" },
+        "600": { "value": "hsl(270, 50%, 45%)", "comment": "Primary dark" },
+        "700": { "value": "hsl(270, 80%, 50%)", "comment": "Primary darker (matches #7B22E0)" },
+        "800": { "value": "hsl(270, 40%, 25%)", "comment": "Primary very dark" },
+        "900": { "value": "hsl(270, 30%, 15%)", "comment": "Primary darkest" }
+      },
+      "secondary": {
+        "100": { "value": "hsl(220, 100%, 95%)", "comment": "Secondary lightest" },
+        "200": { "value": "hsl(220, 100%, 85%)", "comment": "Secondary very light" },
+        "300": { "value": "hsl(220, 100%, 75%)", "comment": "Secondary light" },
+        "400": { "value": "hsl(220, 100%, 63%)", "comment": "Secondary lighter" },
+        "500": { "value": "hsl(220, 100%, 53%)", "comment": "Secondary base" },
+        "600": { "value": "hsl(220, 100%, 43%)", "comment": "Secondary dark" },
+        "700": { "value": "hsl(220, 100%, 33%)", "comment": "Secondary darker" },
+        "800": { "value": "hsl(220, 100%, 23%)", "comment": "Secondary very dark" },
+        "900": { "value": "hsl(220, 100%, 13%)", "comment": "Secondary darkest" }
+      },
+      "terciary": {
+        "100": { "value": "hsl(195, 85%, 90%)" },
+        "200": { "value": "hsl(195, 85%, 80%)" },
+        "300": { "value": "hsl(195, 85%, 70%)" },
+        "400": { "value": "hsl(195, 85%, 60%)" },
+        "500": { "value": "hsl(195, 85%, 50%)" }, 
+        "600": { "value": "hsl(195, 85%, 40%)" },
+        "700": { "value": "hsl(195, 85%, 30%)" },
+        "800": { "value": "hsl(195, 85%, 20%)" },
+        "900": { "value": "hsl(195, 85%, 10%)" }
+      },
+      "status": {
+        "warn": {
+          "value": "hsl(0, 71%, 58%)",
+          "type": "color",
+          "description": "Use for warnings or errors."
+        },
+        "success": {
+          "value": "hsl(134, 61%, 41%)",
+          "type": "color",
+          "description": "Use for successful actions or states."
+        },
+        "caution": {
+          "value": "hsl(45, 100%, 51%)",
+          "type": "color",
+          "description": "Use for caution or alerts requiring attention."
+        },
+        "info": {
+          "value": "hsl(192, 67%, 41%)",
+          "type": "color",
+          "description": "Use for informational messages."
+        }
+      },
+      "neutral": {
+        "100": { "value": "hsl(0, 0%, 95%)", "comment": "Neutral lightest" },
+        "200": { "value": "hsl(0, 0%, 85%)", "comment": "Neutral very light" },
+        "300": { "value": "hsl(0, 0%, 75%)", "comment": "Neutral light" },
+        "400": { "value": "hsl(0, 0%, 65%)", "comment": "Neutral lighter" },
+        "500": { "value": "hsl(0, 0%, 55%)", "comment": "Neutral base" },
+        "600": { "value": "hsl(0, 0%, 45%)", "comment": "Neutral dark" },
+        "700": { "value": "hsl(0, 0%, 35%)", "comment": "Neutral darker" },
+        "800": { "value": "hsl(0, 0%, 25%)", "comment": "Neutral very dark" },
+        "900": { "value": "hsl(0, 0%, 15%)", "comment": "Neutral darkest" }
+      },
+      "red": {
+        "100": { "value": "hsl(0, 85%, 90%)", "comment": "Lightest red" },
+        "200": { "value": "hsl(0, 80%, 80%)", "comment": "Very light red" },
+        "300": { "value": "hsl(0, 75%, 70%)", "comment": "Light red" },
+        "400": { "value": "hsl(0, 70%, 60%)", "comment": "Lighter red" },
+        "500": { "value": "hsl(0, 95%, 50%)", "comment": "Base red (#F01D13)" },
+        "600": { "value": "hsl(0, 80%, 40%)", "comment": "Dark red" },
+        "700": { "value": "hsl(0, 70%, 30%)", "comment": "Darker red" },
+        "800": { "value": "hsl(0, 60%, 25%)", "comment": "Very dark red" },
+        "900": { "value": "hsl(0, 50%, 20%)", "comment": "Darkest red" }
+      },
+      "orange": {
+        "100": { "value": "hsl(30, 90%, 95%)" },
+        "200": { "value": "hsl(30, 80%, 85%)" },
+        "300": { "value": "hsl(30, 70%, 75%)" },
+        "400": { "value": "hsl(30, 60%, 65%)" },
+        "500": { "value": "hsl(30, 50%, 55%)" },
+        "600": { "value": "hsl(30, 40%, 45%)" },
+        "700": { "value": "hsl(30, 30%, 35%)" },
+        "800": { "value": "hsl(30, 20%, 25%)" },
+        "900": { "value": "hsl(30, 10%, 15%)" }
+      },
+      "yellow": {
+        "100": { "value": "hsl(60, 90%, 95%)" },
+        "200": { "value": "hsl(60, 80%, 85%)" },
+        "300": { "value": "hsl(60, 70%, 75%)" },
+        "400": { "value": "hsl(60, 60%, 65%)" },
+        "500": { "value": "hsl(60, 50%, 55%)" },
+        "600": { "value": "hsl(60, 40%, 45%)" },
+        "700": { "value": "hsl(60, 30%, 35%)" },
+        "800": { "value": "hsl(60, 20%, 25%)" },
+        "900": { "value": "hsl(60, 10%, 15%)" }
+      },
+      "green": {
+        "100": { "value": "hsl(120, 90%, 95%)" },
+        "200": { "value": "hsl(120, 80%, 85%)" },
+        "300": { "value": "hsl(120, 70%, 75%)" },
+        "400": { "value": "hsl(120, 60%, 65%)" },
+        "500": { "value": "hsl(120, 50%, 55%)" },
+        "600": { "value": "hsl(120, 40%, 45%)" },
+        "700": { "value": "hsl(120, 30%, 35%)" },
+        "800": { "value": "hsl(120, 20%, 25%)" },
+        "900": { "value": "hsl(120, 10%, 15%)" }
+      },
+      "blue": {
+        "100": { "value": "hsl(220, 90%, 95%)" },
+        "200": { "value": "hsl(220, 80%, 85%)" },
+        "300": { "value": "hsl(220, 70%, 75%)" },
+        "400": { "value": "hsl(220, 60%, 65%)" },
+        "500": { "value": "hsl(220, 50%, 55%)" },
+        "600": { "value": "hsl(220, 40%, 45%)" },
+        "700": { "value": "hsl(220, 30%, 35%)" },
+        "800": { "value": "hsl(220, 20%, 25%)" },
+        "900": { "value": "hsl(220, 10%, 15%)" }
+      },
+      "purple": {
+        "100": { "value": "hsl(280, 90%, 95%)" },
+        "200": { "value": "hsl(280, 80%, 85%)" },
+        "300": { "value": "hsl(280, 70%, 75%)" },
+        "400": { "value": "hsl(280, 60%, 65%)" },
+        "500": { "value": "hsl(280, 50%, 55%)" },
+        "600": { "value": "hsl(280, 40%, 45%)" },
+        "700": { "value": "hsl(280, 30%, 35%)" },
+        "800": { "value": "hsl(280, 20%, 25%)" },
+        "900": { "value": "hsl(280, 10%, 15%)" }
+      },
+      "black": {
+        "50": { "value": "hsl(0, 0%, 20%)", "comment": "Black lightest" },
+        "100": { "value": "hsl(0, 0%, 10%)", "comment": "Black very very light" },
+        "200": { "value": "hsl(0, 0%, 8%)", "comment": "Black very light" },
+        "300": { "value": "hsl(0, 0%, 6%)", "comment": "Black light" },
+        "400": { "value": "hsl(0, 0%, 4%)", "comment": "Black lighter" },
+        "500": { "value": "hsl(0, 0%, 2%)", "comment": "Black base" },
+        "600": { "value": "hsl(0, 0%, 1%)", "comment": "Black dark" },
+        "700": { "value": "hsl(0, 0%, 0.5%)", "comment": "Black darker" },
+        "800": { "value": "hsl(0, 0%, 0.3%)", "comment": "Black very dark" },
+        "900": { "value": "hsl(0, 0%, 0%)", "comment": "Black darkest" }
+      },
+      "gray": {
+        "100": { "value": "hsl(0, 0%, 95%)", "comment": "Gray lightest" },
+        "200": { "value": "hsl(0, 0%, 85%)", "comment": "Gray very light" },
+        "300": { "value": "hsl(0, 0%, 75%)", "comment": "Gray light" },
+        "400": { "value": "hsl(0, 0%, 65%)", "comment": "Gray lighter" },
+        "500": { "value": "hsl(0, 0%, 55%)", "comment": "Gray base" },
+        "600": { "value": "hsl(0, 0%, 45%)", "comment": "Gray dark" },
+        "650": { "value": "hsl(0, 0%, 40%)", "comment": "Gray dark" },
+        "700": { "value": "hsl(0, 0%, 35%)", "comment": "Gray darker" },
+        "800": { "value": "hsl(0, 0%, 25%)", "comment": "Gray very dark" },
+        "900": { "value": "hsl(0, 0%, 15%)", "comment": "Gray darkest" }
+      },
+      "white": {
+        "100": { "value": "hsl(0, 0%, 100%)", "comment": "White pure" },
+        "200": { "value": "hsl(0, 0%, 98%)", "comment": "White very light" },
+        "300": { "value": "hsl(40, 20%, 98%)", "comment": "White warm light" },
+        "400": { "value": "hsl(240, 20%, 98%)", "comment": "White cool light" },
+        "500": { "value": "hsl(0, 0%, 95%)", "comment": "White base light" },
+        "600": { "value": "hsl(0, 0%, 92%)", "comment": "White soft disabled" },
+        "650": { "value": "hsl(0, 0%, 87%)", "comment": "White soft disabled" },
+        "700": { "value": "rgba(255, 255, 255, 0.8)", "comment": "White light overlay" },
+        "800": { "value": "rgba(255, 255, 255, 0.5)", "comment": "White medium overlay" },
+        "900": { "value": "rgba(255, 255, 255, 0.2)", "comment": "White faint overlay" }
+      },
+      "transparent": {
+        "value": "hsl(0, 0%, 0%, 0)"
+      }
+    } 
+  }   
+}
+  

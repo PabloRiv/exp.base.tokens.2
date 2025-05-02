@@ -1,0 +1,117 @@
+{
+  "exp": {
+    "media-queries": {
+      "mobile": {
+        "small": {
+          "portrait": {
+            "value": "320px",
+            "type": "dimension",
+            "comment": "Small mobile devices in portrait (e.g., iPhone SE)"
+          },
+          "landscape": {
+            "value": "480px",
+            "type": "dimension",
+            "comment": "Small mobile devices in landscape (e.g., iPhone SE)"
+          }
+        },
+        "medium": {
+          "portrait": {
+            "value": "375px",
+            "type": "dimension",
+            "comment": "Medium mobile devices in portrait (e.g., iPhone 11)"
+          },
+          "landscape": {
+            "value": "667px",
+            "type": "dimension",
+            "comment": "Medium mobile devices in landscape (e.g., iPhone 11)"
+          }
+        },
+        "large": {
+          "portrait": {
+            "value": "425px",
+            "type": "dimension",
+            "comment": "Large mobile devices in portrait (e.g., Pixel 5)"
+          },
+          "landscape": {
+            "value": "768px",
+            "type": "dimension",
+            "comment": "Large mobile devices in landscape (e.g., Pixel 5)"
+          }
+        },
+        "extra-large": {
+          "portrait": {
+            "value": "480px",
+            "type": "dimension",
+            "comment": "Extra-large mobile devices in portrait (e.g., larger Android phones)"
+          },
+          "landscape": {
+            "value": "812px",
+            "type": "dimension",
+            "comment": "Extra-large mobile devices in landscape (e.g., larger Android phones)"
+          }
+        }
+      },
+      "tablet": {
+        "small": {
+          "value": "600px",
+          "type": "dimension",
+          "comment": "Small tablets (e.g., 7-inch devices)"
+        },
+        "medium": {
+          "value": "768px",
+          "type": "dimension",
+          "comment": "Medium tablets (e.g., iPad Mini)"
+        },
+        "large": {
+          "value": "1024px",
+          "type": "dimension",
+          "comment": "Large tablets (e.g., iPad Pro)"
+        }
+      },
+      "desktop": {
+        "small": {
+          "value": "1280px",
+          "type": "dimension",
+          "comment": "Small desktops or large tablets in landscape mode"
+        },
+        "medium": {
+          "value": "1440px",
+          "type": "dimension",
+          "comment": "Standard desktops (e.g., MacBook Pro 15-inch)"
+        },
+        "large": {
+          "value": "1920px",
+          "type": "dimension",
+          "comment": "Large desktops (e.g., Full HD screens)"
+        },
+        "extra-large": {
+          "value": "2560px",
+          "type": "dimension",
+          "comment": "Extra-large desktops (e.g., QHD screens)"
+        }
+      },
+      "television": {
+        "hd": {
+          "value": "1280px",
+          "type": "dimension",
+          "comment": "HD resolution for TVs"
+        },
+        "full-hd": {
+          "value": "1920px",
+          "type": "dimension",
+          "comment": "Full HD resolution for TVs"
+        },
+        "4k": {
+          "value": "3840px",
+          "type": "dimension",
+          "comment": "4K UHD resolution for TVs"
+        },
+        "8k": {
+          "value": "7680px",
+          "type": "dimension",
+          "comment": "8K UHD resolution for TVs"
+        }
+      }
+    }
+  }
+} 

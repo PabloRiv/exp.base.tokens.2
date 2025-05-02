@@ -1,0 +1,51 @@
+{
+  "exp": {
+    "shadow": {
+      "none": {
+        "value": "none",
+        "type": "shadow",
+        "comment": "No shadow"
+      },
+      "small": {
+        "value": "0px 1px 2px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08)",
+        "type": "shadow",
+        "comment": "Small shadow for light elements like buttons"
+      },
+      "small-float": {
+        "value": "0px 2px 4px rgba(0, 0, 0, 0.2)",
+        "type": "shadow",
+        "comment": "Small floating shadow for light elements like floating action buttons"
+      },
+      "medium": {
+        "value": "0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.08)",
+        "type": "shadow",
+        "comment": "Medium shadow for elements like cards"
+      },
+      "large": {
+        "value": "0px 8px 10px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.08)",
+        "type": "shadow",
+        "comment": "Large shadow for modals or overlays"
+      },
+      "extra-large": {
+        "value": "0px 12px 15px rgba(0, 0, 0, 0.15), 0px 6px 10px rgba(0, 0, 0, 0.1)",
+        "type": "shadow",
+        "comment": "Extra large shadow for dialogs or focused states"
+      },
+      "floating": {
+        "value": "0px 16px 24px rgba(0, 0, 0, 0.2), 0px 8px 12px rgba(0, 0, 0, 0.15)",
+        "type": "shadow",
+        "comment": "High shadow for floating elements or fixed buttons"
+      },
+      "floating-large": {
+        "value": "0px 16px 24px hsl(0, 2%, 44%, 0.35), 0px 8px 12px hsl(0, 2%, 44%, 0.40)",
+        "type": "shadow",
+        "comment": "High shadow for floating elements or fixed buttons"
+      },
+      "inner":{"value": "inset 0 2px 5px rgba(0, 0, 0, 0.2)", "type": "shadow"},
+      "overlay": {"value": "rgba(0, 0, 0, 0.5)", "type": "shadow"},
+      "box": {
+        "one": {"value": "0 4px 6px rgba(0, 0, 0, 0.1)","type": "shadow"}
+      }
+    }
+  }
+}

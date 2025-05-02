@@ -1,0 +1,188 @@
+{
+  "exp": {
+    "variant": {
+      "success": {
+        "primary": {
+          "value": "#4CAF50",
+          "type": "color",
+          "comment": "Primary color for success actions and statuses"
+        },
+        "secondary": {
+          "value": "#66BB6A",
+          "type": "color",
+          "comment": "Secondary color for success-related components"
+        },
+        "tertiary": {
+          "value": "#81C784",
+          "type": "color",
+          "comment": "Tertiary color for subtle success elements"
+        },
+        "confirmation": {
+          "value": "#4CAF50",
+          "type": "color",
+          "comment": "Used for successful confirmation actions"
+        },
+        "positive": {
+          "value": "#66BB6A",
+          "type": "color",
+          "comment": "Used to indicate positive status"
+        },
+        "success": {
+          "value": "#81C784",
+          "type": "color",
+          "comment": "General success indicator"
+        }
+      },
+      "error": {
+        "primary": {
+          "value": "#E53935",
+          "type": "color",
+          "comment": "Primary color for error and danger indicators"
+        },
+        "secondary": {
+          "value": "#D32F2F",
+          "type": "color",
+          "comment": "Secondary color for alerting errors"
+        },
+        "tertiary": {
+          "value": "#F44336",
+          "type": "color",
+          "comment": "Tertiary color for subtle error indicators"
+        },
+        "danger": {
+          "value": "#E53935",
+          "type": "color",
+          "comment": "Used to indicate dangerous actions"
+        },
+        "alert": {
+          "value": "#D32F2F",
+          "type": "color",
+          "comment": "Used for alert messages related to errors"
+        },
+        "critical": {
+          "value": "#C62828",
+          "type": "color",
+          "comment": "Used for critical errors or states"
+        },
+        "error": {
+          "value": "#F44336",
+          "type": "color",
+          "comment": "General error indicator"
+        }
+      },
+      "information": {
+        "primary": {
+          "value": "#2196F3",
+          "type": "color",
+          "comment": "Primary color for informational messages"
+        },
+        "secondary": {
+          "value": "#64B5F6",
+          "type": "color",
+          "comment": "Secondary color for additional informational elements"
+        },
+        "tertiary": {
+          "value": "#BBDEFB",
+          "type": "color",
+          "comment": "Tertiary color for subtle informational cues"
+        },
+        "info": {
+          "value": "#2196F3",
+          "type": "color",
+          "comment": "Used for informational messages"
+        },
+        "information": {
+          "value": "#64B5F6",
+          "type": "color",
+          "comment": "General information indicator"
+        }
+      },
+      "warning": {
+        "primary": {
+          "value": "#FF9800",
+          "type": "color",
+          "comment": "Primary warning color for critical attention"
+        },
+        "secondary": {
+          "value": "#FFA726",
+          "type": "color",
+          "comment": "Secondary warning color for less critical states"
+        },
+        "tertiary": {
+          "value": "#FB8C00",
+          "type": "color",
+          "comment": "Tertiary warning color for subtle caution cues"
+        },
+        "default": {
+          "value": "#FF9800",
+          "type": "color",
+          "comment": "General warning indicator"
+        },
+        "caution": {
+          "value": "#FFA726",
+          "type": "color",
+          "comment": "Used to indicate cautionary actions"
+        },
+        "attention": {
+          "value": "#FB8C00",
+          "type": "color",
+          "comment": "Used for actions that require user attention"
+        }
+      },
+      "new": {
+        "primary": {
+          "value": "#9C27B0",
+          "type": "color",
+          "comment": "Primary color for new or highlighted features"
+        },
+        "secondary": {
+          "value": "#AB47BC",
+          "type": "color",
+          "comment": "Secondary color for supporting new features"
+        },
+        "tertiary": {
+          "value": "#BA68C8",
+          "type": "color",
+          "comment": "Tertiary color for subtle new indicators"
+        },
+        "announcement": {
+          "value": "#9C27B0",
+          "type": "color",
+          "comment": "Used for announcements or newly added features"
+        },
+        "newFeature": {
+          "value": "#AB47BC",
+          "type": "color",
+          "comment": "Indicator for new features or items"
+        },
+        "highlight": {
+          "value": "#BA68C8",
+          "type": "color",
+          "comment": "Highlight to draw attention to new items"
+        }
+      },
+      "neutral": {
+        "primary": {
+          "value": "#9E9E9E",
+          "type": "color",
+          "comment": "Primary neutral color for base states"
+        },
+        "secondary": {
+          "value": "#BDBDBD",
+          "type": "color",
+          "comment": "Secondary neutral color for subdued elements"
+        },
+        "tertiary": {
+          "value": "#E0E0E0",
+          "type": "color",
+          "comment": "Tertiary neutral color for background elements"
+        },
+        "default": {
+          "value": "#9E9E9E",
+          "type": "color",
+          "comment": "Standard neutral color for non-critical messages"
+        }
+      }
+    }
+  }
+}

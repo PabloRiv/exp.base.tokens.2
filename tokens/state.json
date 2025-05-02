@@ -1,0 +1,143 @@
+{
+  "exp": {
+    "state": {
+      "default": {
+        "background": {
+          "value": "rgba(255, 255, 255, 1)",
+          "type": "color",
+          "description": "Background color for the default state."
+        },
+        "border": {
+          "value": "rgba(0, 0, 0, 0.1)",
+          "type": "color",
+          "description": "Border color for the default state."
+        },
+        "text": {
+          "value": "rgba(0, 0, 0, 0.9)",
+          "type": "color",
+          "description": "Text color for the default state."
+        }
+      },
+      "hover": {
+        "background": {
+          "value": "rgba(0, 0, 0, 0.05)",
+          "type": "color",
+          "description": "Background color for hover state."
+        },
+        "border": {
+          "value": "rgba(0, 0, 0, 0.1)",
+          "type": "color",
+          "description": "Border color for hover state."
+        },
+        "text": {
+          "value": "rgba(0, 0, 0, 0.8)",
+          "type": "color",
+          "description": "Text color for hover state."
+        }
+      },
+      "press": {
+        "background": {
+          "value": "rgba(0, 0, 0, 0.2)",
+          "type": "color",
+          "description": "Background color for press state."
+        },
+        "border": {
+          "value": "rgba(0, 0, 0, 0.3)",
+          "type": "color",
+          "description": "Border color for press state."
+        },
+        "text": {
+          "value": "rgba(0, 0, 0, 1)",
+          "type": "color",
+          "description": "Text color for press state."
+        }
+      },
+      "active": {
+        "background": {
+          "value": "rgba(0, 0, 0, 0.1)",
+          "type": "color",
+          "description": "Background color for active state."
+        },
+        "border": {
+          "value": "rgba(0, 0, 0, 0.2)",
+          "type": "color",
+          "description": "Border color for active state."
+        },
+        "text": {
+          "value": "rgba(0, 0, 0, 1)",
+          "type": "color",
+          "description": "Text color for active state."
+        }
+      },
+      "focus": {
+        "outline": {
+          "value": "2px solid rgba(0, 123, 255, 0.8)",
+          "type": "border",
+          "description": "Outline style for focus state."
+        },
+        "background": {
+          "value": "rgba(0, 0, 0, 0.02)",
+          "type": "color",
+          "description": "Background color for focus state."
+        },
+        "text": {
+          "value": "rgba(0, 0, 0, 0.9)",
+          "type": "color",
+          "description": "Text color for focus state."
+        }
+      },
+      "disabled": {
+        "background": {
+          "value": "rgba(0, 0, 0, 0.1)",
+          "type": "color",
+          "description": "Background color for disabled state."
+        },
+        "text": {
+          "value": "rgba(0, 0, 0, 0.4)",
+          "type": "color",
+          "description": "Text color for disabled state."
+        },
+        "border": {
+          "value": "rgba(0, 0, 0, 0.2)",
+          "type": "color",
+          "description": "Border color for disabled state."
+        }
+      },
+      "error": {
+        "background": {
+          "value": "rgba(255, 0, 0, 0.1)",
+          "type": "color",
+          "description": "Background color for error state."
+        },
+        "text": {
+          "value": "rgba(255, 0, 0, 1)",
+          "type": "color",
+          "description": "Text color for error state."
+        },
+        "border": {
+          "value": "rgba(255, 0, 0, 0.8)",
+          "type": "color",
+          "description": "Border color for error state."
+        }
+      },
+      "success": {
+        "background": {
+          "value": "rgba(0, 255, 0, 0.1)",
+          "type": "color",
+          "description": "Background color for success state."
+        },
+        "text": {
+          "value": "rgba(0, 128, 0, 1)",
+          "type": "color",
+          "description": "Text color for success state."
+        },
+        "border": {
+          "value": "rgba(0, 128, 0, 0.8)",
+          "type": "color",
+          "description": "Border color for success state."
+        }
+      }
+      }
+    }
+  }
+  

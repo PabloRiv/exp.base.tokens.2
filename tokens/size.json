@@ -1,0 +1,32 @@
+{
+  "exp": {
+    "sizes": {
+      "container": {
+        "small": { "value": "400px", "type": "dimension" },
+        "medium": { "value": "800px", "type": "dimension" },
+        "large": { "value": "1200px", "type": "dimension" },
+        "full-width": { "value": "100%", "type": "dimension" }
+      },
+      "radius": {
+        "none": { "value": "0px", "type": "borderRadius" },
+        "small": { "value": "4px", "type": "borderRadius" },
+        "medium": { "value": "8px", "type": "borderRadius" },
+        "large": { "value": "16px", "type": "borderRadius" },
+        "pill": { "value": "9999px", "type": "borderRadius" },
+        "circle": { "value": "50%", "type": "borderRadius" }
+      },
+      "icon": {
+        "small": { "value": "16px", "type": "dimension" },
+        "medium": { "value": "24px", "type": "dimension" },
+        "large": { "value": "32px", "type": "dimension" },
+        "x-large": { "value": "40px", "type": "dimension" }
+      },
+      "avatar": {
+        "small": { "value": "24px", "type": "dimension" },
+        "medium": { "value": "48px", "type": "dimension" },
+        "large": { "value": "72px", "type": "dimension" },
+        "x-large": { "value": "96px", "type": "dimension" }
+      }
+    }
+  }
+}

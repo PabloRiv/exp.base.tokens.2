@@ -1,0 +1,41 @@
+{
+  "exp": {
+    "elevation": {
+      "background": {
+        "value": 0,
+        "type": "zIndex",
+        "comment": "Base background layer"
+      },
+      "content": {
+        "value": 10,
+        "type": "zIndex",
+        "comment": "Primary content layer"
+      },
+      "header": {
+        "value": 100,
+        "type": "zIndex",
+        "comment": "Header or navigation bar layer"
+      },
+      "overlay": {
+        "value": 200,
+        "type": "zIndex",
+        "comment": "Overlay elements like modals or drop-downs"
+      },
+      "tooltip": {
+        "value": 300,
+        "type": "zIndex",
+        "comment": "Tooltips, positioned above overlays"
+      },
+      "popover": {
+        "value": 400,
+        "type": "zIndex",
+        "comment": "Popovers, positioned above tooltips"
+      },
+      "modal": {
+        "value": 500,
+        "type": "zIndex",
+        "comment": "Modal dialogs, highest elevation in most layouts"
+      }
+    }
+  }
+}  

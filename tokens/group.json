@@ -1,0 +1,58 @@
+{
+  "exp": {
+    "group": {
+      "forms": {
+        "default": { "value": true, "type": "boolean" },
+        "disabled": { "value": false, "type": "boolean" },
+        "hasError": { "value": false, "type": "boolean" }
+      },
+      "search": {
+        "placeholder": { "value": "Search...", "type": "string" },
+        "iconVisible": { "value": true, "type": "boolean" },
+        "bordered": { "value": true, "type": "boolean" }
+      },
+      "login": {
+        "rememberMeEnabled": { "value": true, "type": "boolean" },
+        "forgotPasswordLinkVisible": { "value": true, "type": "boolean" },
+        "showPasswordToggle": { "value": true, "type": "boolean" }
+      },
+      "sliders": {
+        "step": { "value": 1, "type": "number" },
+        "minValue": { "value": 0, "type": "number" },
+        "maxValue": { "value": 100, "type": "number" },
+        "showTicks": { "value": true, "type": "boolean" },
+        "showLabels": { "value": true, "type": "boolean" }
+      },
+      "buttonGroups": {
+        "orientation": { "value": "horizontal", "type": "string" },
+        "spacing": { "value": "8px", "type": "spacing" },
+        "stackedOnMobile": { "value": true, "type": "boolean" }
+      },
+      "contextMenu": {
+        "openOnRightClick": { "value": true, "type": "boolean" },
+        "closeOnClickOutside": { "value": true, "type": "boolean" },
+        "animation": { "value": "fade", "type": "string" }
+      },
+      "floatingActionButton": {
+        "position": { "value": "bottom-right", "type": "string" },
+        "showShadow": { "value": true, "type": "boolean" },
+        "expandable": { "value": false, "type": "boolean" }
+      },
+      "dropdown": {
+        "multiSelect": { "value": false, "type": "boolean" },
+        "maxHeight": { "value": "200px", "type": "dimension" },
+        "openOnHover": { "value": false, "type": "boolean" }
+      },
+      "modals": {
+        "centered": { "value": true, "type": "boolean" },
+        "closeOnOverlayClick": { "value": true, "type": "boolean" },
+        "animation": { "value": "slide", "type": "string" }
+      },
+      "tooltips": {
+        "position": { "value": "top", "type": "string" },
+        "interactive": { "value": true, "type": "boolean" },
+        "delay": { "value": 300, "type": "number" }
+      }
+    }
+  }
+}  

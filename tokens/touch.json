@@ -1,0 +1,58 @@
+{
+  "exp": {
+    "touch": {
+      "target": {
+        "small": {
+          "value": "32px",
+          "type": "dimension",
+          "description": "Minimum size for small touch targets, used for compact UI elements."
+        },
+        "medium": {
+          "value": "40px",
+          "type": "dimension",
+          "description": "Recommended size for most touch targets, ensuring accessibility."
+        },
+        "large": {
+          "value": "48px",
+          "type": "dimension",
+          "description": "Optimal size for large touch targets, providing extra comfort."
+        }
+      },
+      "spacing": {
+        "small": {
+          "value": "8px",
+          "type": "dimension",
+          "description": "Minimum spacing between touch elements to avoid accidental taps."
+        },
+        "medium": {
+          "value": "16px",
+          "type": "dimension",
+          "description": "Recommended spacing between touch elements for better usability."
+        },
+        "large": {
+          "value": "24px",
+          "type": "dimension",
+          "description": "Generous spacing for touch elements in relaxed layouts."
+        }
+      },
+      "gesture": {
+        "swipeThreshold": {
+          "value": "50px",
+          "type": "dimension",
+          "description": "Minimum distance a swipe gesture must travel to be recognized."
+        },
+        "tapDuration": {
+          "value": "200ms",
+          "type": "time",
+          "description": "Maximum duration for a tap gesture to be considered valid."
+        },
+        "longPressDuration": {
+          "value": "500ms",
+          "type": "time",
+          "description": "Minimum duration a touch must be held for a long press."
+        }
+      }
+    }
+  }
+  }
+  

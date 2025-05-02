@@ -1,0 +1,1420 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --exp-color-primary-100: hsl(270, 75%, 95%); /** Primary lightest */
+  --exp-color-primary-200: hsl(270, 70%, 85%); /** Primary very light */
+  --exp-color-primary-300: hsl(270, 65%, 75%); /** Primary light */
+  --exp-color-primary-400: hsl(270, 60%, 65%); /** Primary lighter */
+  --exp-color-primary-500: hsl(270, 55%, 55%); /** Primary base */
+  --exp-color-primary-600: hsl(270, 50%, 45%); /** Primary dark */
+  --exp-color-primary-700: hsl(270, 80%, 50%); /** Primary darker (matches #7B22E0) */
+  --exp-color-primary-800: hsl(270, 40%, 25%); /** Primary very dark */
+  --exp-color-primary-900: hsl(270, 30%, 15%); /** Primary darkest */
+  --exp-color-secondary-100: hsl(220, 100%, 95%); /** Secondary lightest */
+  --exp-color-secondary-200: hsl(220, 100%, 85%); /** Secondary very light */
+  --exp-color-secondary-300: hsl(220, 100%, 75%); /** Secondary light */
+  --exp-color-secondary-400: hsl(220, 100%, 63%); /** Secondary lighter */
+  --exp-color-secondary-500: hsl(220, 100%, 53%); /** Secondary base */
+  --exp-color-secondary-600: hsl(220, 100%, 43%); /** Secondary dark */
+  --exp-color-secondary-700: hsl(220, 100%, 33%); /** Secondary darker */
+  --exp-color-secondary-800: hsl(220, 100%, 23%); /** Secondary very dark */
+  --exp-color-secondary-900: hsl(220, 100%, 13%); /** Secondary darkest */
+  --exp-color-terciary-100: hsl(195, 85%, 90%);
+  --exp-color-terciary-200: hsl(195, 85%, 80%);
+  --exp-color-terciary-300: hsl(195, 85%, 70%);
+  --exp-color-terciary-400: hsl(195, 85%, 60%);
+  --exp-color-terciary-500: hsl(195, 85%, 50%);
+  --exp-color-terciary-600: hsl(195, 85%, 40%);
+  --exp-color-terciary-700: hsl(195, 85%, 30%);
+  --exp-color-terciary-800: hsl(195, 85%, 20%);
+  --exp-color-terciary-900: hsl(195, 85%, 10%);
+  --exp-color-status-warn: #e04848;
+  --exp-color-status-success: #29a847;
+  --exp-color-status-caution: #ffc105;
+  --exp-color-status-info: #2393af;
+  --exp-color-neutral-100: hsl(0, 0%, 95%); /** Neutral lightest */
+  --exp-color-neutral-200: hsl(0, 0%, 85%); /** Neutral very light */
+  --exp-color-neutral-300: hsl(0, 0%, 75%); /** Neutral light */
+  --exp-color-neutral-400: hsl(0, 0%, 65%); /** Neutral lighter */
+  --exp-color-neutral-500: hsl(0, 0%, 55%); /** Neutral base */
+  --exp-color-neutral-600: hsl(0, 0%, 45%); /** Neutral dark */
+  --exp-color-neutral-700: hsl(0, 0%, 35%); /** Neutral darker */
+  --exp-color-neutral-800: hsl(0, 0%, 25%); /** Neutral very dark */
+  --exp-color-neutral-900: hsl(0, 0%, 15%); /** Neutral darkest */
+  --exp-color-red-100: hsl(0, 85%, 90%); /** Lightest red */
+  --exp-color-red-200: hsl(0, 80%, 80%); /** Very light red */
+  --exp-color-red-300: hsl(0, 75%, 70%); /** Light red */
+  --exp-color-red-400: hsl(0, 70%, 60%); /** Lighter red */
+  --exp-color-red-500: hsl(0, 95%, 50%); /** Base red (#F01D13) */
+  --exp-color-red-600: hsl(0, 80%, 40%); /** Dark red */
+  --exp-color-red-700: hsl(0, 70%, 30%); /** Darker red */
+  --exp-color-red-800: hsl(0, 60%, 25%); /** Very dark red */
+  --exp-color-red-900: hsl(0, 50%, 20%); /** Darkest red */
+  --exp-color-orange-100: hsl(30, 90%, 95%);
+  --exp-color-orange-200: hsl(30, 80%, 85%);
+  --exp-color-orange-300: hsl(30, 70%, 75%);
+  --exp-color-orange-400: hsl(30, 60%, 65%);
+  --exp-color-orange-500: hsl(30, 50%, 55%);
+  --exp-color-orange-600: hsl(30, 40%, 45%);
+  --exp-color-orange-700: hsl(30, 30%, 35%);
+  --exp-color-orange-800: hsl(30, 20%, 25%);
+  --exp-color-orange-900: hsl(30, 10%, 15%);
+  --exp-color-yellow-100: hsl(60, 90%, 95%);
+  --exp-color-yellow-200: hsl(60, 80%, 85%);
+  --exp-color-yellow-300: hsl(60, 70%, 75%);
+  --exp-color-yellow-400: hsl(60, 60%, 65%);
+  --exp-color-yellow-500: hsl(60, 50%, 55%);
+  --exp-color-yellow-600: hsl(60, 40%, 45%);
+  --exp-color-yellow-700: hsl(60, 30%, 35%);
+  --exp-color-yellow-800: hsl(60, 20%, 25%);
+  --exp-color-yellow-900: hsl(60, 10%, 15%);
+  --exp-color-green-100: hsl(120, 90%, 95%);
+  --exp-color-green-200: hsl(120, 80%, 85%);
+  --exp-color-green-300: hsl(120, 70%, 75%);
+  --exp-color-green-400: hsl(120, 60%, 65%);
+  --exp-color-green-500: hsl(120, 50%, 55%);
+  --exp-color-green-600: hsl(120, 40%, 45%);
+  --exp-color-green-700: hsl(120, 30%, 35%);
+  --exp-color-green-800: hsl(120, 20%, 25%);
+  --exp-color-green-900: hsl(120, 10%, 15%);
+  --exp-color-blue-100: hsl(220, 90%, 95%);
+  --exp-color-blue-200: hsl(220, 80%, 85%);
+  --exp-color-blue-300: hsl(220, 70%, 75%);
+  --exp-color-blue-400: hsl(220, 60%, 65%);
+  --exp-color-blue-500: hsl(220, 50%, 55%);
+  --exp-color-blue-600: hsl(220, 40%, 45%);
+  --exp-color-blue-700: hsl(220, 30%, 35%);
+  --exp-color-blue-800: hsl(220, 20%, 25%);
+  --exp-color-blue-900: hsl(220, 10%, 15%);
+  --exp-color-purple-100: hsl(280, 90%, 95%);
+  --exp-color-purple-200: hsl(280, 80%, 85%);
+  --exp-color-purple-300: hsl(280, 70%, 75%);
+  --exp-color-purple-400: hsl(280, 60%, 65%);
+  --exp-color-purple-500: hsl(280, 50%, 55%);
+  --exp-color-purple-600: hsl(280, 40%, 45%);
+  --exp-color-purple-700: hsl(280, 30%, 35%);
+  --exp-color-purple-800: hsl(280, 20%, 25%);
+  --exp-color-purple-900: hsl(280, 10%, 15%);
+  --exp-color-black-50: hsl(0, 0%, 20%); /** Black lightest */
+  --exp-color-black-100: hsl(0, 0%, 10%); /** Black very very light */
+  --exp-color-black-200: hsl(0, 0%, 8%); /** Black very light */
+  --exp-color-black-300: hsl(0, 0%, 6%); /** Black light */
+  --exp-color-black-400: hsl(0, 0%, 4%); /** Black lighter */
+  --exp-color-black-500: hsl(0, 0%, 2%); /** Black base */
+  --exp-color-black-600: hsl(0, 0%, 1%); /** Black dark */
+  --exp-color-black-700: hsl(0, 0%, 0.5%); /** Black darker */
+  --exp-color-black-800: hsl(0, 0%, 0.3%); /** Black very dark */
+  --exp-color-black-900: hsl(0, 0%, 0%); /** Black darkest */
+  --exp-color-gray-100: hsl(0, 0%, 95%); /** Gray lightest */
+  --exp-color-gray-200: hsl(0, 0%, 85%); /** Gray very light */
+  --exp-color-gray-300: hsl(0, 0%, 75%); /** Gray light */
+  --exp-color-gray-400: hsl(0, 0%, 65%); /** Gray lighter */
+  --exp-color-gray-500: hsl(0, 0%, 55%); /** Gray base */
+  --exp-color-gray-600: hsl(0, 0%, 45%); /** Gray dark */
+  --exp-color-gray-650: hsl(0, 0%, 40%); /** Gray dark */
+  --exp-color-gray-700: hsl(0, 0%, 35%); /** Gray darker */
+  --exp-color-gray-800: hsl(0, 0%, 25%); /** Gray very dark */
+  --exp-color-gray-900: hsl(0, 0%, 15%); /** Gray darkest */
+  --exp-color-white-100: hsl(0, 0%, 100%); /** White pure */
+  --exp-color-white-200: hsl(0, 0%, 98%); /** White very light */
+  --exp-color-white-300: hsl(40, 20%, 98%); /** White warm light */
+  --exp-color-white-400: hsl(240, 20%, 98%); /** White cool light */
+  --exp-color-white-500: hsl(0, 0%, 95%); /** White base light */
+  --exp-color-white-600: hsl(0, 0%, 92%); /** White soft disabled */
+  --exp-color-white-650: hsl(0, 0%, 87%); /** White soft disabled */
+  --exp-color-white-700: rgba(255, 255, 255, 0.8); /** White light overlay */
+  --exp-color-white-800: rgba(255, 255, 255, 0.5); /** White medium overlay */
+  --exp-color-white-900: rgba(255, 255, 255, 0.2); /** White faint overlay */
+  --exp-color-transparent: hsl(0, 0%, 0%, 0);
+  --exp-components-icon-fill-default: hsl(0, 0%, 1%);
+  --exp-components-icon-stroke-default: hsl(0, 0%, 1%);
+  --exp-components-accordion-background-color-primary: hsl(280, 60%, 65%);
+  --exp-components-accordion-background-color-secondary: hsl(220, 100%, 53%);
+  --exp-components-accordion-background-color-disabled: hsl(0, 0%, 85%);
+  --exp-components-accordion-background-color-hover-not-disabled: hsl(220, 100%, 33%);
+  --exp-components-accordion-background-color-hover-disabled: hsl(0, 0%, 75%);
+  --exp-components-accordion-background-color-danger: hsl(0, 95%, 50%);
+  --exp-components-accordion-background-color-danger-hover: hsl(0, 75%, 70%);
+  --exp-components-accordion-background-color-button: none;
+  --exp-components-accordion-background-color-accordionslide-button: hsl(0, 0%, 95%);
+  --exp-components-accordion-background-color-accordionslide-hover: rgba(255, 255, 255, 0.5);
+  --exp-components-accordion-text-color-primary: hsl(0, 0%, 95%);
+  --exp-components-accordion-text-color-secondary: hsl(0, 0%, 95%);
+  --exp-components-accordion-text-color-light: hsl(0, 0%, 95%);
+  --exp-components-accordion-text-color-disabled: hsl(0, 0%, 45%);
+  --exp-components-accordion-text-color-hover-not-disabled: rgba(255, 255, 255, 0.8);
+  --exp-components-accordion-text-color-hover-disabled: hsl(0, 0%, 75%);
+  --exp-components-accordion-text-color-danger: hsl(0, 0%, 95%);
+  --exp-components-accordion-text-color-button: hsl(0, 0%, 4%);
+  --exp-components-accordion-text-color-button-active: hsl(220, 40%, 45%);
+  --exp-components-accordion-text-color-accordionslide-icon: hsl(220, 30%, 35%);
+  --exp-components-accordion-font-size-small: .875rem;
+  --exp-components-accordion-font-size-medium: 1rem;
+  --exp-components-accordion-font-size-large: 1.25rem;
+  --exp-components-accordion-font-size-xl: 1.5rem;
+  --exp-components-accordion-font-size-button: 1rem;
+  --exp-components-accordion-font-size-accordionslide-icon: 1rem;
+  --exp-components-accordion-font-weight-thin: 100;
+  --exp-components-accordion-font-weight-light: 300;
+  --exp-components-accordion-font-weight-regular: 400;
+  --exp-components-accordion-font-weight-medium: 500;
+  --exp-components-accordion-font-weight-semi-bold: 600;
+  --exp-components-accordion-font-weight-bold: 700;
+  --exp-components-accordion-font-weight-extra-bold: 800;
+  --exp-components-accordion-border-button: none;
+  --exp-components-accordion-border-buttom-bottom: 2px solid transparent;
+  --exp-components-accordion-border-button-border-bottom-active: hsl(220, 40%, 45%);
+  --exp-components-accordion-border-bar-bottom: 2px solid hsl(0, 0%, 85%);
+  --exp-components-accordion-border-panel: 1px solid hsl(0, 0%, 85%);
+  --exp-components-accordion-border-panel-top: none;
+  --exp-components-accordion-border-secondary: #cccccc;
+  --exp-components-accordion-border-disabled: #f5f5f5;
+  --exp-components-accordion-border-none: rgba(0, 0, 0, 0);
+  --exp-components-accordion-border-color-primary: hsl(280, 40%, 45%);
+  --exp-components-accordion-border-color-secondary: #cccccc;
+  --exp-components-accordion-border-color-bar-bottom: hsl(0, 0%, 85%);
+  --exp-components-accordion-border-color-disabled: #f5f5f5;
+  --exp-components-accordion-border-color-none: rgba(0, 0, 0, 0);
+  --exp-components-accordion-padding-small: .5rem 1rem;
+  --exp-components-accordion-padding-medium: .75rem 1.25rem;
+  --exp-components-accordion-padding-large: 1rem 1.5rem;
+  --exp-components-accordion-padding-button: .5em 1em;
+  --exp-components-accordion-margin-small: .5rem 1rem;
+  --exp-components-accordion-margin-medium: .75rem 1.25rem;
+  --exp-components-accordion-margin-large: 1rem 1.5rem;
+  --exp-components-accordion-margin-accordionslide-button: .5em 1em;
+  --exp-components-accordion-margin-accordion-content-left: 1.25rem;
+  --exp-components-accordion-location-bottom: 1.5rem;
+  --exp-components-accordion-location-left: 1.5rem;
+  --exp-components-accordion-location-right: 1.5rem;
+  --exp-components-accordion-transition-button: color 0.3s, border-bottom-color 0.3s;
+  --exp-components-accordion-width-medium: 3.5rem;
+  --exp-components-accordion-width-accordionslide-icon: 2em;
+  --exp-components-accordion-width-accordionslide-minwidth-icon: 2em;
+  --exp-components-accordion-height-medium: 3.5rem;
+  --exp-components-accordion-height-accordionslide-icon: 2em;
+  --exp-components-accordion-height-accordionslide-minheight-icon: 2em;
+  --exp-components-accordion-shadow-default: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  --exp-components-accordion-shadow-large: 0px 8px 10px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.08);
+  --exp-components-accordion-shadow-outline: 0 0 0 3px rgba(127, 25, 229, 1);
+  --exp-components-accordion-line-height: 1;
+  --exp-components-accordion-gap-bar: .5rem;
+  --exp-components-accordion-border-radius-accordionslide: 4px;
+  --exp-components-accordion-border-width: 1px;
+  --exp-components-accordion-nds-icon-icon-xaxis: 100;
+  --exp-components-accordion-nds-icon-icon-yaxis: 100;
+  --exp-components-accordion-nds-icon-icon-width: 2100;
+  --exp-components-accordion-nds-icon-icon-height: 2100;
+  --exp-components-action-menu-width: 100%;
+  --exp-components-action-menu-search-box-wrapper-width: 100%;
+  --exp-components-action-menu-icon-top: 50%;
+  --exp-components-action-menu-icon-right: 0;
+  --exp-components-action-menu-icon-transform: translateY(-50%);
+  --exp-components-action-menu-search-box-width: 12rem;
+  --exp-components-action-menu-search-box-padding: .5rem .5rem .5rem calc(2rem * .9375);
+  --exp-components-action-menu-search-box-border-radius: 4px;
+  --exp-components-action-menu-search-box-border: 1px solid hsl(0, 0%, 65%);
+  --exp-components-action-menu-search-box-font-size: 1.25rem;
+  --exp-components-action-menu-result-list-top: 100%;
+  --exp-components-action-menu-result-list-left: 0;
+  --exp-components-action-menu-result-list-width: 100%;
+  --exp-components-action-menu-result-list-max-height: fit-content;
+  --exp-components-action-menu-result-list-margin: 0;
+  --exp-components-action-menu-result-list-padding: 0;
+  --exp-components-action-menu-result-list-list-style: none;
+  --exp-components-action-menu-result-list-background-color: rgba(0, 0, 0, 0);
+  --exp-components-action-menu-result-list-border: 1px solid hsl(0, 0%, 85%);
+  --exp-components-action-menu-result-list-border-radius: 4px;
+  --exp-components-action-menu-result-list-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --exp-components-action-menu-result-list-z-index: 1000;
+  --exp-components-action-menu-result-list-font-size: 1rem;
+  --exp-components-action-menu-result-list-text-color: hsl(0, 0%, 6%);
+  --exp-components-action-menu-result-list-text-color-hover: hsl(0, 0%, 2%);
+  --exp-components-action-menu-result-list-text-color-disabled: hsl(0, 0%, 85%);
+  --exp-components-action-menu-result-item-padding: .5rem;
+  --exp-components-action-menu-result-item-text-color-hover: hsl(0, 0%, 95%);
+  --exp-components-action-menu-result-item-text-color-disabled: hsl(0, 0%, 85%);
+  --exp-components-action-menu-result-item-background-color: rgba(0, 0, 0, 0);
+  --exp-components-action-menu-result-item-background-color-hover: hsl(220, 100%, 53%);
+  --exp-components-button-background-color-primary: hsl(280, 40%, 45%);
+  --exp-components-button-background-color-secondary: hsl(220, 100%, 53%);
+  --exp-components-button-background-color-disabled: hsl(0, 0%, 85%);
+  --exp-components-button-background-color-hover-not-disabled: hsl(220, 100%, 33%);
+  --exp-components-button-background-color-hover-disabled: hsl(0, 0%, 75%);
+  --exp-components-button-background-color-danger: hsl(0, 95%, 50%);
+  --exp-components-button-background-color-danger-hover: hsl(0, 75%, 70%);
+  --exp-components-button-text-color-primary: hsl(0, 0%, 95%);
+  --exp-components-button-text-color-secondary: hsl(0, 0%, 95%);
+  --exp-components-button-text-color-disabled: hsl(0, 0%, 45%);
+  --exp-components-button-text-color-hover-not-disabled: rgba(255, 255, 255, 0.8);
+  --exp-components-button-text-color-hover-disabled: hsl(0, 0%, 75%);
+  --exp-components-button-text-color-danger: hsl(0, 0%, 95%);
+  --exp-components-button-font-size-small: .875rem;
+  --exp-components-button-font-size-medium: 1rem;
+  --exp-components-button-font-size-large: 1.25rem;
+  --exp-components-button-font-weight-thin: 100;
+  --exp-components-button-font-weight-light: 300;
+  --exp-components-button-font-weight-regular: 400;
+  --exp-components-button-font-weight-medium: 500;
+  --exp-components-button-font-weight-semi-bold: 600;
+  --exp-components-button-font-weight-bold: 700;
+  --exp-components-button-font-weight-extra-bold: 800;
+  --exp-components-button-border-color-primary: hsl(280, 40%, 45%);
+  --exp-components-button-border-color-secondary: #cccccc;
+  --exp-components-button-border-color-disabled: #f5f5f5;
+  --exp-components-button-border-color-none: rgba(0, 0, 0, 0);
+  --exp-components-button-padding-small: .5rem 1rem;
+  --exp-components-button-padding-medium: .75rem 1.25rem;
+  --exp-components-button-padding-large: 1rem 1.5rem;
+  --exp-components-button-border-radius-default: 4px;
+  --exp-components-button-border-radius-pill: 9999px;
+  --exp-components-button-group-gap: .25rem;
+  --exp-components-dropdown-width: 12rem;
+  --exp-components-dropdown-label-font-size: .875rem;
+  --exp-components-dropdown-label-margin-bottom: .5rem;
+  --exp-components-dropdown-label-text-color: hsl(0, 0%, 6%);
+  --exp-components-dropdown-button-padding: .5rem 1rem;
+  --exp-components-dropdown-button-border-radius: 4px;
+  --exp-components-dropdown-button-border: 1px solid hsl(280, 40%, 45%);
+  --exp-components-dropdown-button-background-color: hsl(0, 0%, 95%);
+  --exp-components-dropdown-button-background-color-hover: hsl(0, 0%, 75%);
+  --exp-components-dropdown-button-text-color: hsl(0, 0%, 6%);
+  --exp-components-dropdown-button-text-color-disabled: hsl(0, 0%, 85%);
+  --exp-components-dropdown-button-font-size: 1rem;
+  --exp-components-dropdown-button-font-weight: 500;
+  --exp-components-dropdown-button-transition: border-color 0.3s ease;
+  --exp-components-dropdown-button-border-color-hover: hsl(220, 100%, 53%);
+  --exp-components-dropdown-arrow-text-color: hsl(0, 0%, 6%);
+  --exp-components-dropdown-arrow-font-size: .875rem;
+  --exp-components-dropdown-list-top: 100%;
+  --exp-components-dropdown-list-left: 0;
+  --exp-components-dropdown-list-width: 100%;
+  --exp-components-dropdown-list-height: fit-content;
+  --exp-components-dropdown-list-margin: 0;
+  --exp-components-dropdown-list-padding: 0;
+  --exp-components-dropdown-list-list-style: none;
+  --exp-components-dropdown-list-background-color: hsl(0, 0%, 95%);
+  --exp-components-dropdown-list-border: 1px solid hsl(0, 0%, 85%);
+  --exp-components-dropdown-list-border-radius: 4px;
+  --exp-components-dropdown-list-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --exp-components-dropdown-list-z-index: 1000;
+  --exp-components-dropdown-list-font-size: 1rem;
+  --exp-components-dropdown-list-text-color: hsl(0, 0%, 6%);
+  --exp-components-dropdown-list-text-color-hover: hsl(0, 0%, 2%);
+  --exp-components-dropdown-list-text-color-disabled: hsl(0, 0%, 85%);
+  --exp-components-dropdown-list-transition: background-color 0.3s ease-in-out;
+  --exp-components-dropdown-option-padding: .5rem 1rem;
+  --exp-components-dropdown-option-text-color: hsl(0, 0%, 6%);
+  --exp-components-dropdown-option-text-color-hover: hsl(0, 0%, 95%);
+  --exp-components-dropdown-option-text-color-disabled: hsl(0, 0%, 85%);
+  --exp-components-dropdown-option-background-color: hsl(0, 0%, 95%);
+  --exp-components-dropdown-option-background-color-selected: rgba(255, 255, 255, 0.2);
+  --exp-components-dropdown-option-background-color-hover: hsl(220, 100%, 53%);
+  --exp-components-dropdown-option-background-color-disabled: hsl(0, 0%, 85%);
+  --exp-components-dropdown-option-font-size: 1rem;
+  --exp-components-dropdown-option-font-weight: 500;
+  --exp-components-dropdown-option-font-weight-selected: 700;
+  --exp-components-dropdown-option-border: none;
+  --exp-components-dropdown-option-border-radius: 4px;
+  --exp-components-dropdown-option-transition: background-color 0.3s ease-in-out;
+  --exp-components-split-button-background-color-primary-button: hsl(280, 40%, 45%);
+  --exp-components-split-button-background-color-primary-button-hover: hsl(280, 20%, 25%);
+  --exp-components-split-button-background-color-dropdown-button: hsl(220, 100%, 53%);
+  --exp-components-split-button-background-color-dropdown-button-hover: hsl(220, 100%, 23%);
+  --exp-components-split-button-background-color-disabled: hsl(0, 0%, 85%);
+  --exp-components-split-button-background-color-hover-disabled: hsl(0, 0%, 75%);
+  --exp-components-split-button-background-color-danger: hsl(0, 95%, 50%);
+  --exp-components-split-button-background-color-danger-hover: hsl(0, 75%, 70%);
+  --exp-components-split-button-background-color-dropdown-menu: hsl(0, 0%, 92%);
+  --exp-components-split-button-text-color-primary-button: hsl(0, 0%, 95%);
+  --exp-components-split-button-text-color-dropdown-button: hsl(0, 0%, 95%);
+  --exp-components-split-button-font-size-primary-button: 1rem;
+  --exp-components-split-button-font-size-dropdown-icon: 1rem;
+  --exp-components-split-button-font-weight-thin: 100;
+  --exp-components-split-button-font-weight-light: 300;
+  --exp-components-split-button-font-weight-regular: 400;
+  --exp-components-split-button-font-weight-medium: 500;
+  --exp-components-split-button-font-weight-semi-bold: 600;
+  --exp-components-split-button-font-weight-bold: 700;
+  --exp-components-split-button-font-weight-extra-bold: 800;
+  --exp-components-split-button-border-primary-button: 1px solid hsl(280, 40%, 45%);
+  --exp-components-split-button-border-dropdown-button: 1px solid hsl(220, 100%, 43%);
+  --exp-components-split-button-border-dropdown-button-left: 1px solid hsl(220, 100%, 23%);
+  --exp-components-split-button-border-disabled: #f5f5f5;
+  --exp-components-split-button-border-none: rgba(0, 0, 0, 0);
+  --exp-components-split-button-border-dropdown-menu: 1px solid hsl(0, 0%, 45%);
+  --exp-components-split-button-label-font-size: 1rem;
+  --exp-components-split-button-label-font-weight: 500;
+  --exp-components-split-button-label-color: hsl(0, 0%, 6%);
+  --exp-components-split-button-label-color-hover: hsl(0, 0%, 2%);
+  --exp-components-split-button-label-margin-bottom: .5rem;
+  --exp-components-split-button-label-transition: color 0.3s;
+  --exp-components-split-button-padding-primary-button: .5rem 1rem;
+  --exp-components-split-button-padding-dropdown-button: .73em;
+  --exp-components-split-button-border-radius-primary-button: 4px 0 0 4px;
+  --exp-components-split-button-border-radius-dropdown-button: 0 4px 4px 0;
+  --exp-components-split-button-border-radius-dropdown-menu: 4px;
+  --exp-components-split-button-shadow-dropdown-menu-box: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --exp-components-split-button-range-slider-gap: .5rem;
+  --exp-components-split-button-range-slider-range-background-color: hsl(0, 0%, 85%);
+  --exp-components-split-button-range-slider-range-border-radius: 4px;
+  --exp-components-split-button-range-slider-range-transition: background-color 0.3s ease-in-out;
+  --exp-components-split-button-range-slider-thumb-background-color: hsl(195, 85%, 50%);
+  --exp-components-split-button-range-slider-thumb-border-radius: 50%;
+  --exp-components-split-button-range-slider-thumb-transition: background-color 0.3s ease-in-out;
+  --exp-components-split-button-range-slider-thumb-width: 1.25rem;
+  --exp-components-split-button-range-slider-thumb-height: 1.25rem;
+  --exp-components-split-button-range-slider-value-display-color: hsl(0, 0%, 6%);
+  --exp-components-split-button-range-slider-value-display-font-size: 1rem;
+  --exp-components-split-button-range-slider-value-display-font-weight: 700;
+  --exp-components-split-button-transition-primary-button: background-color 0.3s ease-in-out;
+  --exp-components-split-button-width-dropdown-menu-min: 8rem;
+  --exp-components-switch-background-color-primary: hsl(280, 40%, 45%);
+  --exp-components-switch-background-color-secondary: hsl(220, 100%, 53%);
+  --exp-components-switch-background-color-disabled: hsl(0, 0%, 85%);
+  --exp-components-switch-background-color-hover-not-disabled: hsl(220, 100%, 33%);
+  --exp-components-switch-background-color-hover-disabled: hsl(0, 0%, 75%);
+  --exp-components-switch-background-color-danger: hsl(0, 95%, 50%);
+  --exp-components-switch-background-color-danger-hover: hsl(0, 75%, 70%);
+  --exp-components-switch-thumb-color-background-off-static-default: hsl(280, 60%, 65%);
+  --exp-components-switch-thumb-color-background-off-static-disabled: hsl(0, 0%, 45%);
+  --exp-components-switch-thumb-color-background-off-static-hover: hsl(280, 50%, 55%);
+  --exp-components-switch-thumb-color-background-off-static-focused: hsl(220, 100%, 53%);
+  --exp-components-switch-thumb-color-background-off-static-pressed: hsl(220, 100%, 53%);
+  --exp-components-switch-thumb-color-background-on-static-default: hsl(280, 60%, 65%);
+  --exp-components-switch-thumb-color-background-on-static-hover: hsl(280, 40%, 45%);
+  --exp-components-switch-thumb-color-background-on-static-focused: hsl(220, 100%, 53%);
+  --exp-components-switch-thumb-color-border-on-focused: 4px solid hsl(220, 100%, 53%);
+  --exp-components-switch-thumb-color-border-on-pressed: 4px solid hsl(270, 55%, 55%);
+  --exp-components-switch-thumb-color-border-off-focused: 4px solid hsl(0, 0%, 55%);
+  --exp-components-switch-thumb-color-border-off-pressed: 4px solid hsl(270, 55%, 55%);
+  --exp-components-switch-thumb-shadow-on-static: none;
+  --exp-components-switch-thumb-shadow-off-static: 1px 1px 2px 2px rgba(115, 111, 111, 0.35);
+  --exp-components-switch-thumb-shadow-off-pressed: -2px -2px 10px 10px 0px 16px 24px hsl(0, 2%, 44%, 0.35), 0px 8px 12px hsl(0, 2%, 44%, 0.40);
+  --exp-components-switch-thumb-width: 1.5rem;
+  --exp-components-switch-height: 1.5rem;
+  --exp-components-switch-track-color-background-on-default: hsl(240, 20%, 98%);
+  --exp-components-switch-track-color-background-off-disabled: hsl(0, 0%, 45%);
+  --exp-components-switch-track-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+  --exp-components-switch-track-width: 3rem;
+  --exp-components-switch-track-height: 1.25rem;
+  --exp-components-switch-lever-color-background-on-default: hsl(280, 60%, 65%);
+  --exp-components-switch-lever-color-background-off-disabled: hsl(0, 0%, 45%);
+  --exp-components-switch-lever-shadow-on-static: none;
+  --exp-components-switch-lever-shadow-off-static: 1px 1px 2px 2px rgba(115, 111, 111, 0.35);
+  --exp-components-switch-lever-shadow-off-pressed: -2px -2px 10px 10px 0px 16px 24px hsl(0, 2%, 44%, 0.35), 0px 8px 12px hsl(0, 2%, 44%, 0.40);
+  --exp-components-switch-lever-shadow-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  --exp-components-switch-lever-width-small: 2rem;
+  --exp-components-switch-lever-width-medium: 3rem;
+  --exp-components-switch-lever-width-large: 4rem;
+  --exp-components-switch-lever-height-small: 1rem;
+  --exp-components-switch-lever-height-medium: 1.25rem;
+  --exp-components-switch-lever-height-large: 1.5rem;
+  --exp-components-switch-text-color-default: hsl(0, 0%, 4%);
+  --exp-components-switch-text-color-success: hsl(120, 60%, 65%);
+  --exp-components-switch-text-color-warning: hsl(60, 40%, 45%);
+  --exp-components-switch-text-color-danger: hsl(0, 80%, 40%);
+  --exp-components-switch-font-size: .675rem;
+  --exp-components-switch-font-weight: 700;
+  --exp-components-switch-border-color-primary: hsl(280, 40%, 45%);
+  --exp-components-switch-border-color-secondary: #cccccc;
+  --exp-components-switch-border-color-disabled: #f5f5f5;
+  --exp-components-switch-border-color-none: rgba(0, 0, 0, 0);
+  --exp-components-switch-padding-small: .5rem 1rem;
+  --exp-components-switch-padding-medium: .75rem 1.25rem;
+  --exp-components-switch-padding-large: 1rem 1.5rem;
+  --exp-components-switch-border-radius-default: 4px;
+  --exp-components-switch-border-radius-pill: 9999px;
+  --exp-components-fab-background-color-primary: hsl(280, 60%, 65%);
+  --exp-components-fab-background-color-secondary: hsl(220, 100%, 53%);
+  --exp-components-fab-background-color-disabled: hsl(0, 0%, 85%);
+  --exp-components-fab-background-color-hover-not-disabled: hsl(220, 100%, 33%);
+  --exp-components-fab-background-color-hover-disabled: hsl(0, 0%, 75%);
+  --exp-components-fab-background-color-danger: hsl(0, 95%, 50%);
+  --exp-components-fab-background-color-danger-hover: hsl(0, 75%, 70%);
+  --exp-components-fab-text-color-primary: hsl(0, 0%, 95%);
+  --exp-components-fab-text-color-secondary: hsl(0, 0%, 95%);
+  --exp-components-fab-text-color-light: hsl(0, 0%, 95%);
+  --exp-components-fab-text-color-disabled: hsl(0, 0%, 45%);
+  --exp-components-fab-text-color-hover-not-disabled: rgba(255, 255, 255, 0.8);
+  --exp-components-fab-text-color-hover-disabled: hsl(0, 0%, 75%);
+  --exp-components-fab-text-color-danger: hsl(0, 0%, 95%);
+  --exp-components-fab-font-size-small: .875rem;
+  --exp-components-fab-font-size-medium: 1rem;
+  --exp-components-fab-font-size-large: 1.25rem;
+  --exp-components-fab-font-size-xl: 1.5rem;
+  --exp-components-fab-font-weight-thin: 100;
+  --exp-components-fab-font-weight-light: 300;
+  --exp-components-fab-font-weight-regular: 400;
+  --exp-components-fab-font-weight-medium: 500;
+  --exp-components-fab-font-weight-semi-bold: 600;
+  --exp-components-fab-font-weight-bold: 700;
+  --exp-components-fab-font-weight-extra-bold: 800;
+  --exp-components-fab-border-color-primary: hsl(280, 40%, 45%);
+  --exp-components-fab-border-color-secondary: #cccccc;
+  --exp-components-fab-border-color-disabled: #f5f5f5;
+  --exp-components-fab-border-color-none: rgba(0, 0, 0, 0);
+  --exp-components-fab-padding-small: .5rem 1rem;
+  --exp-components-fab-padding-medium: .75rem 1.25rem;
+  --exp-components-fab-padding-large: 1rem 1.5rem;
+  --exp-components-fab-location-bottom: 1.5rem;
+  --exp-components-fab-location-left: 1.5rem;
+  --exp-components-fab-location-right: 1.5rem;
+  --exp-components-fab-width-medium: 3.5rem;
+  --exp-components-fab-height-medium: 3.5rem;
+  --exp-components-fab-margin-accordionslide: .5em 0 .5em 0;
+  --exp-components-fab-shadow-default: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  --exp-components-fab-shadow-large: 0px 8px 10px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.08);
+  --exp-components-fab-shadow-outline: 0 0 0 3px rgba(127, 25, 229, 1);
+  --exp-components-fab-border-radius-pill: 9999px;
+  --exp-components-tab-background-color-primary: hsl(280, 60%, 65%);
+  --exp-components-tab-background-color-secondary: hsl(220, 100%, 53%);
+  --exp-components-tab-background-color-disabled: hsl(0, 0%, 85%);
+  --exp-components-tab-background-color-hover-not-disabled: hsl(220, 100%, 33%);
+  --exp-components-tab-background-color-hover-disabled: hsl(0, 0%, 75%);
+  --exp-components-tab-background-color-danger: hsl(0, 95%, 50%);
+  --exp-components-tab-background-color-danger-hover: hsl(0, 75%, 70%);
+  --exp-components-tab-background-color-button: none;
+  --exp-components-tab-text-color-primary: hsl(0, 0%, 95%);
+  --exp-components-tab-text-color-secondary: hsl(0, 0%, 95%);
+  --exp-components-tab-text-color-light: hsl(0, 0%, 95%);
+  --exp-components-tab-text-color-disabled: hsl(0, 0%, 45%);
+  --exp-components-tab-text-color-hover-not-disabled: rgba(255, 255, 255, 0.8);
+  --exp-components-tab-text-color-hover-disabled: hsl(0, 0%, 75%);
+  --exp-components-tab-text-color-danger: hsl(0, 0%, 95%);
+  --exp-components-tab-text-color-button: hsl(0, 0%, 4%);
+  --exp-components-tab-text-color-button-active: hsl(220, 40%, 45%);
+  --exp-components-tab-font-size-small: .875rem;
+  --exp-components-tab-font-size-medium: 1rem;
+  --exp-components-tab-font-size-large: 1.25rem;
+  --exp-components-tab-font-size-xl: 1.5rem;
+  --exp-components-tab-font-size-button: 1rem;
+  --exp-components-tab-font-weight-thin: 100;
+  --exp-components-tab-font-weight-light: 300;
+  --exp-components-tab-font-weight-regular: 400;
+  --exp-components-tab-font-weight-medium: 500;
+  --exp-components-tab-font-weight-semi-bold: 600;
+  --exp-components-tab-font-weight-bold: 700;
+  --exp-components-tab-font-weight-extra-bold: 800;
+  --exp-components-tab-border-button: none;
+  --exp-components-tab-border-buttom-bottom: 2px solid transparent;
+  --exp-components-tab-border-button-border-bottom-active: hsl(220, 40%, 45%);
+  --exp-components-tab-border-bar-bottom: 2px solid hsl(0, 0%, 85%);
+  --exp-components-tab-border-panel: 1px solid hsl(0, 0%, 85%);
+  --exp-components-tab-border-panel-top: none;
+  --exp-components-tab-border-secondary: #cccccc;
+  --exp-components-tab-border-disabled: #f5f5f5;
+  --exp-components-tab-border-none: rgba(0, 0, 0, 0);
+  --exp-components-tab-border-color-primary: hsl(280, 40%, 45%);
+  --exp-components-tab-border-color-secondary: #cccccc;
+  --exp-components-tab-border-color-bar-bottom: hsl(0, 0%, 85%);
+  --exp-components-tab-border-color-disabled: #f5f5f5;
+  --exp-components-tab-border-color-none: rgba(0, 0, 0, 0);
+  --exp-components-tab-padding-small: .5rem 1rem;
+  --exp-components-tab-padding-medium: .75rem 1.25rem;
+  --exp-components-tab-padding-large: 1rem 1.5rem;
+  --exp-components-tab-padding-button: .5em 1em;
+  --exp-components-tab-location-bottom: 1.5rem;
+  --exp-components-tab-location-left: 1.5rem;
+  --exp-components-tab-location-right: 1.5rem;
+  --exp-components-tab-transition-button: color 0.3s, border-bottom-color 0.3s;
+  --exp-components-tab-width-medium: 3.5rem;
+  --exp-components-tab-height-medium: 3.5rem;
+  --exp-components-tab-shadow-default: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  --exp-components-tab-shadow-large: 0px 8px 10px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.08);
+  --exp-components-tab-shadow-outline: 0 0 0 3px rgba(127, 25, 229, 1);
+  --exp-components-tab-gap-bar: .5rem;
+  --exp-components-tab-border-radius-pill: 9999px;
+  --exp-components-tab-border-width: 1px;
+  --exp-components-card-background-color-default: hsl(0, 0%, 95%);
+  --exp-components-card-background-color-footer: hsl(0, 0%, 98%);
+  --exp-components-card-font-family-body: Open Sans, sans-serif;
+  --exp-components-card-shadow-default: 0px 12px 15px rgba(0, 0, 0, 0.15), 0px 6px 10px rgba(0, 0, 0, 0.1);
+  --exp-components-card-shadow-hover: 0px 16px 24px rgba(0, 0, 0, 0.2), 0px 8px 12px rgba(0, 0, 0, 0.15);
+  --exp-components-card-padding-default: 1em;
+  --exp-components-card-padding-compact: .75em;
+  --exp-components-card-width-xtra-small: 20%;
+  --exp-components-card-width-small: 33%;
+  --exp-components-card-width-medium: 50%;
+  --exp-components-card-width-large: 75%;
+  --exp-components-card-width-extra-large: 100%;
+  --exp-components-card-border-radius: 4px;
+  --exp-components-card-text-color-primary: hsl(0, 0%, 2%);
+  --exp-components-card-text-color-secondary: hsl(0, 0%, 95%);
+  --exp-components-card-text-color-disabled: hsl(0, 0%, 45%);
+  --exp-components-card-text-color-hover-not-disabled: rgba(255, 255, 255, 0.8);
+  --exp-components-card-text-color-hover-disabled: hsl(0, 0%, 75%);
+  --exp-components-card-text-color-danger: hsl(0, 0%, 95%);
+  --exp-components-card-text-color-subtitle: hsl(0, 0%, 40%);
+  --exp-components-card-font-size-small: .875rem;
+  --exp-components-card-font-size-medium: 1rem;
+  --exp-components-card-font-size-large: 1.25rem;
+  --exp-components-card-font-size-title: 1.5rem;
+  --exp-components-card-font-size-sub-title: 1rem;
+  --exp-components-card-font-size-content: 1rem;
+  --exp-components-card-font-weight-thin: 100;
+  --exp-components-card-font-weight-light: 300;
+  --exp-components-card-font-weight-regular: 400;
+  --exp-components-card-font-weight-medium: 500;
+  --exp-components-card-font-weight-semi-bold: 600;
+  --exp-components-card-font-weight-bold: 700;
+  --exp-components-card-font-weight-extra-bold: 800;
+  --exp-components-card-border-color-default: #cccccc;
+  --exp-components-card-border-color-focus: #0077cc;
+  --exp-components-card-border-color-error: #ff0000;
+  --exp-components-card-border-color-footer-border-top: hsl(0, 0%, 87%);
+  --exp-components-drawer-background-color-default: #ffffff;
+  --exp-components-drawer-background-color-focus: #e0f7fa;
+  --exp-components-drawer-background-color-disabled: #f5f5f5;
+  --exp-components-drawer-background-color-drawer-content: hsl(0, 0%, 95%);
+  --exp-components-drawer-background-color-inverse: hsl(195, 85%, 50%);
+  --exp-components-drawer-font-size-title: 1.5rem;
+  --exp-components-drawer-font-size-sub-title: 1rem;
+  --exp-components-drawer-font-size-content: 1rem;
+  --exp-components-drawer-font-weight-title: 400;
+  --exp-components-drawer-font-weight-close: 400;
+  --exp-components-drawer-text-color-title: hsl(220, 100%, 53%);
+  --exp-components-drawer-text-color-subtitle: hsl(0, 0%, 40%);
+  --exp-components-drawer-text-color-body: hsl(0, 0%, 2%);
+  --exp-components-drawer-text-color-icon: hsl(0, 0%, 6%);
+  --exp-components-drawer-text-color-inverse: hsl(220, 100%, 53%);
+  --exp-components-drawer-overlay: rgba(0, 0, 0, 0.5);
+  --exp-components-drawer-border-color-default: #cccccc;
+  --exp-components-drawer-border-color-focus: #0077cc;
+  --exp-components-drawer-border-color-error: #ff0000;
+  --exp-components-drawer-transition: transform 0.3s ease-out;
+  --exp-components-drawer-transform-default: translateX(-100%);
+  --exp-components-drawer-transform-drawer-right: translateX(100%);
+  --exp-components-drawer-transform-drawer-bottom: translateX(100%);
+  --exp-components-drawer-padding-action-title-left: 0;
+  --exp-components-drawer-padding-title-left: 3.5rem;
+  --exp-components-drawer-padding-drawer-inner: 1rem 2.5rem;
+  --exp-components-drawer-padding-drawer-inner-768: 2rem 2.5rem;
+  --exp-components-drawer-margin-close-left: auto;
+  --exp-components-drawer-height-title: 3.5rem;
+  --exp-components-drawer-height-body: calc(100vh - 3.5rem);
+  --exp-components-drawer-width-border: 1px;
+  --exp-components-drawer-border-radius-default: 4px;
+  --exp-components-drawer-shadow-box: 2px 3px 4px 0px rgba(0, 0, 0, 0.2);
+  --exp-components-menu-background-color-default: hsl(0, 0%, 95%);
+  --exp-components-menu-background-color-footer: hsl(0, 0%, 98%);
+  --exp-components-menu-background-color-toggle-bg: hsl(0, 0%, 98%);
+  --exp-components-menu-font-family-body: Open Sans, sans-serif;
+  --exp-components-menu-shadow-default: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.08);
+  --exp-components-menu-shadow-hover: 0px 16px 24px rgba(0, 0, 0, 0.2), 0px 8px 12px rgba(0, 0, 0, 0.15);
+  --exp-components-menu-padding-default: 0.5rem 1em;
+  --exp-components-menu-padding-compact: .75em;
+  --exp-components-menu-width-xtra-small: 20%;
+  --exp-components-menu-width-small: 33%;
+  --exp-components-menu-width-medium: 50%;
+  --exp-components-menu-width-large: 75%;
+  --exp-components-menu-width-extra-large: 100%;
+  --exp-components-menu-border-radius: 4px;
+  --exp-components-menu-text-color-primary: hsl(0, 0%, 2%);
+  --exp-components-menu-text-color-secondary: hsl(0, 0%, 95%);
+  --exp-components-menu-text-color-disabled: hsl(0, 0%, 45%);
+  --exp-components-menu-text-color-hover-not-disabled: rgba(255, 255, 255, 0.8);
+  --exp-components-menu-text-color-hover-disabled: hsl(0, 0%, 75%);
+  --exp-components-menu-text-color-danger: hsl(0, 0%, 95%);
+  --exp-components-menu-text-color-title: hsl(0, 0%, 40%);
+  --exp-components-menu-text-color-subtitle: hsl(0, 0%, 40%);
+  --exp-components-menu-font-size-small: .875rem;
+  --exp-components-menu-font-size-medium: 1rem;
+  --exp-components-menu-font-size-large: 1.25rem;
+  --exp-components-menu-font-size-title: 1.25rem;
+  --exp-components-menu-font-size-sub-title: 1rem;
+  --exp-components-menu-font-size-content: 1rem;
+  --exp-components-menu-font-weight-thin: 100;
+  --exp-components-menu-font-weight-light: 300;
+  --exp-components-menu-font-weight-regular: 400;
+  --exp-components-menu-font-weight-medium: 500;
+  --exp-components-menu-font-weight-semi-bold: 600;
+  --exp-components-menu-font-weight-bold: 700;
+  --exp-components-menu-font-weight-extra-bold: 800;
+  --exp-components-menu-border-color-default: #cccccc;
+  --exp-components-menu-border-color-focus: #0077cc;
+  --exp-components-menu-border-color-error: #ff0000;
+  --exp-components-menu-border-color-footer-border-top: hsl(0, 0%, 87%);
+  --exp-components-chip-background-color-default: hsl(30, 50%, 55%);
+  --exp-components-chip-background-color-hover: hsl(30, 80%, 85%);
+  --exp-components-chip-font-family-body: Open Sans, sans-serif;
+  --exp-components-chip-shadow-default: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.08);
+  --exp-components-chip-shadow-hover: 0px 16px 24px rgba(0, 0, 0, 0.2), 0px 8px 12px rgba(0, 0, 0, 0.15);
+  --exp-components-chip-padding-default: 0.5rem 1em;
+  --exp-components-chip-padding-close: 0px;
+  --exp-components-chip-padding-compact: .75em;
+  --exp-components-chip-width-xtra-small: 20%;
+  --exp-components-chip-width-small: 33%;
+  --exp-components-chip-width-medium: 50%;
+  --exp-components-chip-width-large: 75%;
+  --exp-components-chip-width-extra-large: 100%;
+  --exp-components-chip-border-radius: 16px;
+  --exp-components-chip-text-color-primary: hsl(0, 0%, 2%);
+  --exp-components-chip-text-color-secondary: hsl(0, 0%, 95%);
+  --exp-components-chip-text-color-disabled: hsl(0, 0%, 45%);
+  --exp-components-chip-text-color-hover-not-disabled: rgba(255, 255, 255, 0.8);
+  --exp-components-chip-text-color-hover-disabled: hsl(0, 0%, 75%);
+  --exp-components-chip-text-color-danger: hsl(0, 0%, 95%);
+  --exp-components-chip-text-color-title: hsl(0, 0%, 40%);
+  --exp-components-chip-text-color-subtitle: hsl(0, 0%, 40%);
+  --exp-components-chip-font-size-small: .875rem;
+  --exp-components-chip-font-size-medium: 1rem;
+  --exp-components-chip-font-size-large: 1.25rem;
+  --exp-components-chip-font-size-title: 1.25rem;
+  --exp-components-chip-font-size-sub-title: 1rem;
+  --exp-components-chip-font-size-content: 1rem;
+  --exp-components-chip-font-weight-thin: 100;
+  --exp-components-chip-font-weight-light: 300;
+  --exp-components-chip-font-weight-regular: 400;
+  --exp-components-chip-font-weight-medium: 500;
+  --exp-components-chip-font-weight-semi-bold: 600;
+  --exp-components-chip-font-weight-bold: 700;
+  --exp-components-chip-font-weight-extra-bold: 800;
+  --exp-components-chip-line-height-default: 1;
+  --exp-components-chip-border-color-default: #cccccc;
+  --exp-components-chip-border-color-focus: #0077cc;
+  --exp-components-chip-border-color-error: #ff0000;
+  --exp-components-chip-border-color-footer-border-top: hsl(0, 0%, 87%);
+  --exp-components-modal-background-color: hsl(0, 0%, 95%);
+  --exp-components-modal-text-color: hsl(0, 0%, 6%);
+  --exp-components-modal-overlay-color: rgba(0, 0, 0, 0.5);
+  --exp-components-modal-overlay-opacity: 0.5;
+  --exp-components-modal-padding: 1.5rem;
+  --exp-components-modal-border-radius: 4px;
+  --exp-components-modal-z-index: 1000;
+  --exp-components-modal-line-height: 1.5;
+  --exp-components-modal-typography-font-family: Open Sans, sans-serif;
+  --exp-components-modal-typography-title: 1.5rem;
+  --exp-components-modal-typography-subtitle: 1rem;
+  --exp-components-modal-typography-content: 1rem;
+  --exp-components-modal-transition: transform 0.3s ease-out;
+  --exp-components-modal-dialog-transition: transform 0.3s ease-out;
+  --exp-components-modal-dialog-transform-default: translate(-50%, -50%);
+  --exp-components-modal-dialog-transform-top: translate(-50%, 0);
+  --exp-components-modal-dialog-transform-bottom: translate(-50%, 0);
+  --exp-components-modal-dialog-transform-left: translate(0, -50%);
+  --exp-components-modal-dialog-transform-right: translate(0, -50%);
+  --exp-components-modal-open-opacity: 1;
+  --exp-components-modal-content-padding: 1rem;
+  --exp-components-modal-content-width: 100%;
+  --exp-components-modal-content-height: 100vh;
+  --exp-components-modal-content-background-color: #ffffff;
+  --exp-components-modal-content-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --exp-components-modal-content-border-radius: 4px;
+  --exp-components-modal-header-padding: 1rem;
+  --exp-components-modal-header-background-color: #ffffff;
+  --exp-components-modal-header-text-color: hsl(0, 0%, 20%);
+  --exp-components-modal-header-border-bottom: 1px solid #CCCCCC;
+  --exp-components-modal-header-height: 3.5rem;
+  --exp-components-modal-header-border-radius: 4px;
+  --exp-components-modal-header-inverse: hsl(195, 85%, 50%);
+  --exp-components-modal-close-width: 3.5rem;
+  --exp-components-modal-close-height: 3.5rem;
+  --exp-components-modal-close-padding: .75rem;
+  --exp-components-modal-close-background-color: #ffffff;
+  --exp-components-modal-close-border: none;
+  --exp-components-modal-close-font-weight: 700;
+  --exp-components-modal-close-inverse: hsl(195, 85%, 50%);
+  --exp-components-modal-icon-inverse: hsl(195, 85%, 50%);
+  --exp-components-modal-status-icon-width: 1.5rem;
+  --exp-components-modal-status-icon-height: 1.5rem;
+  --exp-components-modal-status-icon-text-color: hsl(0, 0%, 20%);
+  --exp-components-modal-status-icon-padding: 0 12px 0 0;
+  --exp-components-modal-status-icon-margin: 0 12px 0 0;
+  --exp-components-modal-status-icon-background-color: #ffffff;
+  --exp-components-modal-status-icon-border: none;
+  --exp-components-modal-status-icon-font-weight: 700;
+  --exp-components-modal-status-icon-inverse: hsl(195, 85%, 50%);
+  --exp-components-modal-svg-fill: hsl(0, 0%, 20%);
+  --exp-components-modal-title-padding-left: .75rem;
+  --exp-components-modal-title-font-weight: 400;
+  --exp-components-modal-title-font-size: 1.25rem;
+  --exp-components-modal-title-font-family: Open Sans, sans-serif;
+  --exp-components-modal-body-padding: 2.5rem 0.5rem;
+  --exp-components-modal-body-font-size: 1rem;
+  --exp-components-modal-body-font-family: Open Sans, sans-serif;
+  --exp-components-modal-body-width: 50em;
+  --exp-components-modal-status-padding: 1rem;
+  --exp-components-modal-status-font-size: 1rem;
+  --exp-components-modal-status-font-weight: 400;
+  --exp-components-modal-status-font-family: Open Sans, sans-serif;
+  --exp-components-modal-status-line-height: 1.5;
+  --exp-components-modal-status-margin: 1rem;
+  --exp-components-modal-text-area-width: 23em;
+  --exp-components-modal-text-area-text-align: left;
+  --exp-components-modal-text-area-padding: 1rem;
+  --exp-components-modal-text-area-font-size: 1rem;
+  --exp-components-modal-text-area-font-family: Open Sans, sans-serif;
+  --exp-components-modal-button-row-padding: 1rem;
+  --exp-components-modal-button-cell-padding: 0 .5rem;
+  --exp-components-modal-height-tall: 18em;
+  --exp-components-modal-height-medium: 9em;
+  --exp-components-modal-height-short: 3em;
+  --exp-components-modal-width-medium: 35em;
+  --exp-components-modal-width-narrow: 28em;
+  --exp-components-modal-icon-style-default-fill: hsl(0, 0%, 45%);
+  --exp-components-modal-icon-style-default-stroke: hsl(0, 0%, 45%);
+  --exp-components-modal-icon-style-warn-fill: #e04848;
+  --exp-components-modal-icon-style-warn-stroke: #e04848;
+  --exp-components-modal-icon-style-success-fill: #29a847;
+  --exp-components-modal-icon-style-success-stroke: #29a847;
+  --exp-components-modal-icon-style-caution-fill: #ffc105;
+  --exp-components-modal-icon-style-caution-stroke: #ffc105;
+  --exp-components-modal-responsive-width-481px-768px: 17.5em;
+  --exp-components-modal-responsive-width-max-480px: 17.5em;
+  --exp-components-modal-responsive-height-481px-768px: 26.25em;
+  --exp-components-modal-responsive-height-max-480px: 26.25em;
+  --exp-components-modal-responsive-border-radius-481px-768px: 4px;
+  --exp-components-modal-responsive-border-radius-max-480px: 4px;
+  --exp-components-modal-responsive-border-radius-min-width-768px-content-border-radius: .25em;
+  --exp-components-modal-responsive-border-radius-min-width-768px-header-border-radius: .25rem .25rem 0 0;
+  --exp-components-slider-track-color: #cccccc;
+  --exp-components-slider-thumb-color: #0077cc;
+  --exp-components-slider-track-height: 4px;
+  --exp-components-slider-thumb-size: 16px;
+  --exp-components-checkbox-background-color-checked: #0077cc;
+  --exp-components-checkbox-background-color-unchecked: #ffffff;
+  --exp-components-checkbox-border-color-checked: #0077cc;
+  --exp-components-checkbox-border-color-unchecked: #cccccc;
+  --exp-components-checkbox-size: 16px;
+  --exp-components-checkbox-container-gap: .5rem;
+  --exp-components-checkbox-width: 1rem;
+  --exp-components-checkbox-height: 1rem;
+  --exp-components-checkbox-opacity-disabled: 0.6;
+  --exp-components-checkbox-label-font-size: 1rem;
+  --exp-components-radio-background-color-checked: hsl(220, 100%, 53%);
+  --exp-components-radio-background-color-unchecked: hsl(0, 0%, 95%);
+  --exp-components-radio-border-color-checked: hsl(0, 0%, 2%);
+  --exp-components-radio-border-color-unchecked: hsl(220, 100%, 53%);
+  --exp-components-radio-disabled-background-color: hsl(0, 0%, 75%);
+  --exp-components-radio-disabled-border-color: hsl(0, 0%, 45%);
+  --exp-components-radio-disabled-opacity: 0.6;
+  --exp-components-radio-size: 16px;
+  --exp-components-radio-label-font-size: 1rem;
+  --exp-components-radio-label-font-family: Open Sans, sans-serif;
+  --exp-components-radio-label-text-color: hsl(0, 0%, 2%);
+  --exp-components-radio-label-margin-left: .5rem;
+  --exp-components-radio-group-margin-bottom: .5rem;
+  --exp-components-radio-group-indicator-width: 1rem;
+  --exp-components-radio-group-indicator-height: 1rem;
+  --exp-components-radio-group-indicator-background-color: rgba(0, 0, 0, 0);
+  --exp-components-radio-group-indicator-border: 2px solid hsl(220, 100%, 43%);
+  --exp-components-radio-group-indicator-border-radius: 50%;
+  --exp-components-radio-group-indicator-transition: background-color 0.3s ease;
+  --exp-components-radio-group-indicator-margin-right: .5rem;
+  --exp-components-textinput-background-color-default: hsl(0, 0%, 95%);
+  --exp-components-textinput-background-color-focus: #e0f7fa;
+  --exp-components-textinput-background-color-disabled: hsl(0, 0%, 95%);
+  --exp-components-textinput-background-color-numeric: hsl(0, 0%, 95%);
+  --exp-components-textinput-padding-default: 8px 12px;
+  --exp-components-textinput-border-radius-default: 4px;
+  --exp-components-textinput-input-width: 16rem;
+  --exp-components-textinput-input-width-numeric: 4rem;
+  --exp-components-textinput-input-padding: .5rem;
+  --exp-components-textinput-input-border: 1px solid hsl(0, 0%, 75%);
+  --exp-components-textinput-input-border-focus: hsl(220, 100%, 53%);
+  --exp-components-textinput-input-border-radius: 4px;
+  --exp-components-textinput-input-border-radius-numeric: 4px;
+  --exp-components-textinput-input-font-size: 1rem;
+  --exp-components-textinput-input-transition: transform 0.3s ease-out;
+  --exp-components-textinput-input-text-color-placeholder: hsl(0, 0%, 55%);
+  --exp-components-textinput-input-text-color-disabled: hsl(0, 0%, 75%);
+  --exp-components-textinput-input-gap: .5rem;
+  --exp-components-textinput-label-font-size: 1rem;
+  --exp-components-textinput-label-font-weight: 400;
+  --exp-components-textinput-label-font-family: Open Sans, sans-serif;
+  --exp-components-textinput-label-text-color: hsl(0, 0%, 20%);
+  --exp-components-textinput-label-margin: .5rem 0 0 0;
+  --exp-components-textinput-button-background-color: hsl(0, 0%, 95%);
+  --exp-components-textinput-button-background-color-disabled: hsl(0, 0%, 95%);
+  --exp-components-textinput-button-background-color-hover: hsl(220, 100%, 53%);
+  --exp-components-textinput-button-border: 1px solid hsl(0, 0%, 75%);
+  --exp-components-textinput-button-border-radius: 4px;
+  --exp-components-textinput-button-padding: .5rem;
+  --exp-components-textinput-button-font-size: 1.25rem;
+  --exp-components-textinput-button-text-color: hsl(0, 0%, 20%);
+  --exp-components-textinput-button-text-color-hover: hsl(0, 0%, 95%);
+  --exp-components-textinput-button-text-color-disabled: hsl(0, 0%, 75%);
+  --exp-components-textinput-button-transition: transform 0.3s ease-out;
+  --exp-components-textinput-button-margin: .5rem 0 0 0;
+  --exp-components-textinput-button-width: 2rem;
+  --exp-components-textinput-button-height: 2rem;
+  --exp-components-textinput-wrapper-error-border-color: #e04848;
+  --exp-components-textinput-error-message-text-color: hsl(0, 95%, 50%);
+  --exp-components-textinput-error-message-font-size: .875rem;
+  --exp-components-textinput-error-message-font-weight: 400;
+  --exp-components-textinput-error-message-font-family: Open Sans, sans-serif;
+  --exp-components-textinput-error-message-margin: .5rem 0 0 0;
+  --exp-components-textarea-background-color-default: #ffffff;
+  --exp-components-textarea-width: 16rem;
+  --exp-components-textarea-padding: .5rem;
+  --exp-components-textarea-border: 1px solid hsl(0, 0%, 75%);
+  --exp-components-textarea-border-focus: hsl(220, 100%, 53%);
+  --exp-components-textarea-border-radius: 4px;
+  --exp-components-textarea-font-size: 1rem;
+  --exp-components-textarea-transition: transform 0.3s ease-out;
+  --exp-components-textarea-text-color-placeholder: hsl(0, 0%, 55%);
+  --exp-components-textarea-disabled: hsl(0, 0%, 75%);
+  --exp-components-textarea-gap: .5rem;
+  --exp-components-textarea-placeholder-text-color: hsl(0, 0%, 55%);
+  --exp-components-textarea-placeholder-background-color: hsl(0, 0%, 85%);
+  --exp-components-textarea-char-counter-text-color: hsl(0, 0%, 55%);
+  --exp-components-textarea-char-counter-font-size: .875rem;
+  --exp-components-textarea-char-counter-font-weight: 400;
+  --exp-components-textarea-char-counter-font-family: Open Sans, sans-serif;
+  --exp-components-textarea-char-counter-margin: .5rem 0 0 0;
+  --exp-components-textarea-char-counter-text-align: right;
+  --exp-components-textarea-error-text-color: hsl(0, 95%, 50%);
+  --exp-components-textarea-error-font-size: .875rem;
+  --exp-components-textarea-error-font-weight: 400;
+  --exp-components-textarea-error-font-family: Open Sans, sans-serif;
+  --exp-components-textarea-error-margin: .5rem 0 0 0;
+  --exp-components-tooltip-background-color: hsl(0, 0%, 6%);
+  --exp-components-tooltip-text-color: hsl(0, 0%, 95%);
+  --exp-components-tooltip-padding: .5rem;
+  --exp-components-tooltip-border-radius: 4px;
+  --exp-components-tooltip-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  --exp-components-tooltip-font-size: .875rem;
+  --exp-components-tooltip-z-index: 1000;
+  --exp-components-tooltip-pointer-width: calc(.5rem * .625);
+  --exp-components-tooltip-pointer-height: calc(.5rem * .375);
+  --exp-components-tooltip-pointer-background-color: hsl(0, 0%, 2%);
+  --exp-components-tooltip-pointer-border-style: solid;
+  --exp-components-tooltip-pointer-content-background: hsl(0, 0%, 2%);
+  --exp-components-tooltip-pointer-content-text-color: hsl(0, 0%, 95%);
+  --exp-components-tooltip-pointer-content-padding: .5rem;
+  --exp-components-tooltip-pointer-content-border-radius: 4px;
+  --exp-components-tooltip-pointer-content-font-size: .875rem;
+  --exp-components-tooltip-pointer-content-z-index: 1000;
+  --exp-components-tooltip-pointer-content-white-space: nowrap;
+  --exp-components-tooltip-pointer-top-bottom: -11px;
+  --exp-components-tooltip-pointer-top-top: auto;
+  --exp-components-tooltip-pointer-top-left: 50%;
+  --exp-components-tooltip-pointer-top-transform: translateX(-50%) rotate(360deg);
+  --exp-components-tooltip-pointer-top-border-width: .5rem .5rem 0 .5rem;
+  --exp-components-tooltip-pointer-top-border-color: hsl(0, 0%, 2%) hsl(0, 0%, 0%, 0) hsl(0, 0%, 0%, 0) hsl(0, 0%, 0%, 0);
+  --exp-components-tooltip-pointer-bottom-top: -32%;
+  --exp-components-tooltip-pointer-bottom-left: 52%;
+  --exp-components-tooltip-pointer-bottom-transform: translateX(-50%) rotate(180deg);
+  --exp-components-tooltip-pointer-bottom-border-width: 8px 8px 0 8px;
+  --exp-components-tooltip-pointer-bottom-border-color: hsl(0, 0%, 2%) hsl(0, 0%, 0%, 0) hsl(0, 0%, 0%, 0) hsl(0, 0%, 0%, 0);
+  --exp-components-tooltip-pointer-bottom-margin-top: 1rem;
+  --exp-components-tooltip-pointer-right-left: -11.5%;
+  --exp-components-tooltip-pointer-right-top: 50%;
+  --exp-components-tooltip-pointer-right-transform: translateY(-50%) rotate(180deg);
+  --exp-components-tooltip-pointer-right-border-width: .5rem 0 .5rem .5rem;
+  --exp-components-tooltip-pointer-right-border-color: transparent transparent transparent hsl(0, 0%, 2%);
+  --exp-components-tooltip-pointer-left-right: -11px;
+  --exp-components-tooltip-pointer-left-top: 50%;
+  --exp-components-tooltip-pointer-left-transform: translateY(-50%) rotate(180deg);
+  --exp-components-tooltip-pointer-left-border-width: 8px 8px 8px 0;
+  --exp-components-tooltip-pointer-left-border-color: hsl(0, 0%, 0%, 0) hsl(0, 0%, 2%) hsl(0, 0%, 0%, 0) hsl(0, 0%, 0%, 0);
+  --exp-components-toast-background-color-info: hsl(220, 60%, 65%);
+  --exp-components-toast-background-color-success: hsl(120, 60%, 65%);
+  --exp-components-toast-background-color-warning: hsl(60, 40%, 45%);
+  --exp-components-toast-background-color-error: hsl(0, 95%, 50%);
+  --exp-components-toast-text-color-default: hsl(0, 0%, 95%);
+  --exp-components-toast-text-color-warning: #ff6f00;
+  --exp-components-toast-text-color-error: #d32f2f;
+  --exp-components-toast-positions-top-left-top: 1rem;
+  --exp-components-toast-positions-top-left-left: 1rem;
+  --exp-components-toast-positions-top-right-top: 1rem;
+  --exp-components-toast-positions-top-right-right: 1rem;
+  --exp-components-toast-positions-bottom-left-bottom: 1rem;
+  --exp-components-toast-positions-bottom-left-left: 1rem;
+  --exp-components-toast-positions-bottom-right-bottom: 1rem;
+  --exp-components-toast-positions-bottom-right-right: 1rem;
+  --exp-components-toast-font-size: 1rem;
+  --exp-components-toast-padding: 1rem;
+  --exp-components-toast-border-radius: 4px;
+  --exp-components-toast-shadow-box: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --exp-components-toast-z-index: 1000;
+  --exp-components-toast-transition: transform 0.3s ease-out;
+  --exp-components-alert-background-color-info: #e0f7fa;
+  --exp-components-alert-background-color-warning: #fff3e0;
+  --exp-components-alert-background-color-error: #ffebee;
+  --exp-components-alert-text-color-info: #0077cc;
+  --exp-components-alert-text-color-warning: #ff6f00;
+  --exp-components-alert-text-color-error: #d32f2f;
+  --exp-components-alert-padding: 16px;
+  --exp-components-alert-border-radius: 4px;
+  --exp-concept-heading-font-size-large: 32px;
+  --exp-concept-heading-font-size-medium: 24px;
+  --exp-concept-heading-font-size-small: 18px;
+  --exp-concept-heading-font-weight-default: 700;
+  --exp-concept-heading-line-height-default: 1.2;
+  --exp-concept-heading-aliases-header: heading;
+  --exp-concept-heading-aliases-heading-level: heading;
+  --exp-concept-heading-aliases-headline: heading;
+  --exp-concept-heading-aliases-display: heading;
+  --exp-concept-body-font-size-default: 16px;
+  --exp-concept-body-font-size-small: 14px;
+  --exp-concept-body-font-weight-default: 400;
+  --exp-concept-body-line-height-default: 1.5;
+  --exp-concept-body-color-default: #333333;
+  --exp-concept-body-color-muted: #666666;
+  --exp-concept-feedback-success-background-color: #dff0d8;
+  --exp-concept-feedback-success-text-color: #3c763d;
+  --exp-concept-feedback-error-background-color: #f2dede;
+  --exp-concept-feedback-error-text-color: #a94442;
+  --exp-concept-feedback-warning-background-color: #fcf8e3;
+  --exp-concept-feedback-warning-text-color: #8a6d3b;
+  --exp-concept-feedback-aliases-alert: feedback;
+  --exp-concept-feedback-aliases-notification: feedback;
+  --exp-concept-feedback-aliases-messaging: feedback;
+  --exp-concept-visualization-primary: #0077cc;
+  --exp-concept-visualization-secondary: #ff5733;
+  --exp-concept-visualization-tertiary: #4caf50;
+  --exp-concept-visualization-highlight: #ffd700;
+  --exp-concept-visualization-aliases-dataviz: visualization;
+  --exp-concept-visualization-aliases-charts: visualization;
+  --exp-concept-visualization-aliases-charting: visualization;
+  --exp-concept-allocation-high: #ff5733; /** Represents high allocation or usage level */
+  --exp-concept-allocation-medium: #ffc300; /** Represents medium allocation or usage level */
+  --exp-concept-allocation-low: #4caf50; /** Represents low allocation or usage level */
+  --exp-concept-action-primary-background-color: #007bff;
+  --exp-concept-action-primary-text-color: #ffffff;
+  --exp-concept-action-secondary-background-color: #6c757d;
+  --exp-concept-action-secondary-text-color: #ffffff;
+  --exp-concept-action-disabled-background-color: #cccccc;
+  --exp-concept-action-disabled-text-color: #666666;
+  --exp-concept-action-aliases-cta: action;
+  --exp-concept-action-aliases-interactive: action;
+  --exp-concept-action-aliases-interaction: action;
+  --exp-concept-commerce-price-font-size: 18px;
+  --exp-concept-commerce-price-color: #ff5733;
+  --exp-concept-commerce-discount-color: #d32f2f;
+  --exp-concept-commerce-discount-font-weight: 700;
+  --exp-concept-commerce-availability-in-stock: #4caf50;
+  --exp-concept-commerce-availability-out-of-stock: #a94442;
+  --exp-element-left-icon-size-small: 16px;
+  --exp-element-left-icon-size-medium: 24px;
+  --exp-element-left-icon-size-large: 32px;
+  --exp-element-left-icon-color-default: #333333;
+  --exp-element-left-icon-color-disabled: #aaaaaa;
+  --exp-element-left-icon-color-active: #0077cc;
+  --exp-element-overlay-background-color-default: rgba(0, 0, 0, 0.5);
+  --exp-element-overlay-background-color-light: rgba(255, 255, 255, 0.3);
+  --exp-element-overlay-opacity-default: 0.5;
+  --exp-element-overlay-opacity-light: 0.3;
+  --exp-element-mask-background-color: rgba(255, 255, 255, 0.8);
+  --exp-element-mask-blur: 4px;
+  --exp-element-mask-opacity: 0.8;
+  --exp-element-right-icon-size-small: 16px;
+  --exp-element-right-icon-size-medium: 24px;
+  --exp-element-right-icon-size-large: 32px;
+  --exp-element-right-icon-color-default: #333333;
+  --exp-element-right-icon-color-hover: #555555;
+  --exp-element-right-icon-color-active: #0077cc;
+  --exp-element-badge-background-color-default: #ff0000;
+  --exp-element-badge-background-color-info: #0077cc;
+  --exp-element-badge-background-color-success: #00cc66;
+  --exp-element-badge-text-color-default: #ffffff;
+  --exp-element-badge-padding-small: 2px 4px;
+  --exp-element-badge-padding-medium: 4px 8px;
+  --exp-element-badge-padding-large: 6px 12px;
+  --exp-element-badge-border-radius: 12px;
+  --exp-element-tooltip-background-color: #333333;
+  --exp-element-tooltip-text-color: #ffffff;
+  --exp-element-tooltip-padding: 8px;
+  --exp-element-tooltip-border-radius: 4px;
+  --exp-element-tooltip-shadow-default: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  --exp-element-spinner-size-small: 16px;
+  --exp-element-spinner-size-medium: 24px;
+  --exp-element-spinner-size-large: 32px;
+  --exp-element-spinner-color-default: #0077cc;
+  --exp-element-spinner-color-light: #cccccc;
+  --exp-element-spinner-animation-duration-fast: 0.00s;
+  --exp-element-spinner-animation-duration-normal: 0.00s;
+  --exp-element-spinner-animation-duration-slow: 0.00s;
+  --exp-elevation-background: 0; /** Base background layer */
+  --exp-elevation-content: 10; /** Primary content layer */
+  --exp-elevation-header: 100; /** Header or navigation bar layer */
+  --exp-elevation-overlay: 200; /** Overlay elements like modals or drop-downs */
+  --exp-elevation-tooltip: 300; /** Tooltips, positioned above overlays */
+  --exp-elevation-popover: 400; /** Popovers, positioned above tooltips */
+  --exp-elevation-modal: 500; /** Modal dialogs, highest elevation in most layouts */
+  --exp-font-fonts-serif: Times New Roman, serif;
+  --exp-font-fonts-sans: Open Sans, sans-serif;
+  --exp-font-fonts-monospace: Courier New, monospace;
+  --exp-font-font-size-heading: 1.75rem;
+  --exp-font-font-size-body: 1rem;
+  --exp-font-font-size-xxs: .675rem;
+  --exp-font-font-size-xs: .75rem;
+  --exp-font-font-size-sm: .875rem;
+  --exp-font-font-size-md: 1rem;
+  --exp-font-font-size-lg: 1.25rem;
+  --exp-font-font-size-xl: 1.5rem;
+  --exp-font-font-size-xxl: 2rem;
+  --exp-font-font-weight-thin: 100;
+  --exp-font-font-weight-light: 300;
+  --exp-font-font-weight-regular: 400;
+  --exp-font-font-weight-medium: 500;
+  --exp-font-font-weight-semi-bold: 600;
+  --exp-font-font-weight-bold: 700;
+  --exp-font-font-weight-extra-bold: 800;
+  --exp-font-line-height-tight: 1.2; /** Tight line height for compact text */
+  --exp-font-line-height-normal: 1.5; /** Standard line height */
+  --exp-font-line-height-loose: 1.8; /** Looser line height for readability */
+  --exp-font-letter-spacing-tight: -0.5px; /** Tight letter spacing */
+  --exp-font-letter-spacing-normal: 0px; /** Normal letter spacing */
+  --exp-font-letter-spacing-wide: 0.5px; /** Wide letter spacing */
+  --exp-font-text-transform-uppercase: uppercase;
+  --exp-font-text-transform-lowercase: lowercase;
+  --exp-font-text-transform-capitalize: capitalize;
+  --exp-font-text-transform-none: none;
+  --exp-font-font-style-normal: normal;
+  --exp-font-font-style-italic: italic;
+  --exp-font-font-style-oblique: oblique;
+  --exp-font-typography-heading-font-family: 'Open Sans', sans-serif;
+  --exp-font-typography-heading-font-weight: 700;
+  --exp-font-typography-heading-font-size: 1.25rem;
+  --exp-font-typography-heading-line-height: 1.2;
+  --exp-font-typography-heading-letter-spacing: 0px;
+  --exp-font-typography-heading-text-transform: capitalize;
+  --exp-font-typography-subheading-font-family: 'Open Sans', sans-serif;
+  --exp-font-typography-subheading-font-weight: 600;
+  --exp-font-typography-subheading-font-size: 1rem;
+  --exp-font-typography-subheading-line-height: 1.5;
+  --exp-font-typography-subheading-letter-spacing: -0.5px;
+  --exp-font-typography-subheading-text-transform: none;
+  --exp-font-typography-body-font-family: 'Times New Roman', serif;
+  --exp-font-typography-body-font-weight: 400;
+  --exp-font-typography-body-font-size: 1rem;
+  --exp-font-typography-body-line-height: 1.5;
+  --exp-font-typography-body-letter-spacing: 0px;
+  --exp-font-typography-body-text-transform: none;
+  --exp-font-typography-caption-font-family: 'Times New Roman', serif;
+  --exp-font-typography-caption-font-weight: 300;
+  --exp-font-typography-caption-font-size: .875rem;
+  --exp-font-typography-caption-line-height: 1.8;
+  --exp-font-typography-caption-letter-spacing: 0.5px;
+  --exp-font-typography-caption-text-transform: none;
+  --exp-font-typography-button-font-family: 'Open Sans', sans-serif;
+  --exp-font-typography-button-font-weight: 700;
+  --exp-font-typography-button-font-size: .875rem;
+  --exp-font-typography-button-line-height: 1.2;
+  --exp-font-typography-button-letter-spacing: 0.5px;
+  --exp-font-typography-button-text-transform: uppercase;
+  --exp-group-forms-default: true;
+  --exp-group-forms-disabled: false;
+  --exp-group-forms-has-error: false;
+  --exp-group-search-placeholder: Search...;
+  --exp-group-search-icon-visible: true;
+  --exp-group-search-bordered: true;
+  --exp-group-login-remember-me-enabled: true;
+  --exp-group-login-forgot-password-link-visible: true;
+  --exp-group-login-show-password-toggle: true;
+  --exp-group-sliders-step: 1;
+  --exp-group-sliders-min-value: 0;
+  --exp-group-sliders-max-value: 100;
+  --exp-group-sliders-show-ticks: true;
+  --exp-group-sliders-show-labels: true;
+  --exp-group-button-groups-orientation: horizontal;
+  --exp-group-button-groups-spacing: 8px;
+  --exp-group-button-groups-stacked-on-mobile: true;
+  --exp-group-context-menu-open-on-right-click: true;
+  --exp-group-context-menu-close-on-click-outside: true;
+  --exp-group-context-menu-animation: fade;
+  --exp-group-floating-action-button-position: bottom-right;
+  --exp-group-floating-action-button-show-shadow: true;
+  --exp-group-floating-action-button-expandable: false;
+  --exp-group-dropdown-multi-select: false;
+  --exp-group-dropdown-max-height: 200px;
+  --exp-group-dropdown-open-on-hover: false;
+  --exp-group-modals-centered: true;
+  --exp-group-modals-close-on-overlay-click: true;
+  --exp-group-modals-animation: slide;
+  --exp-group-tooltips-position: top;
+  --exp-group-tooltips-interactive: true;
+  --exp-group-tooltips-delay: 300;
+  --exp-animation-duration-short: 0.3s; /** Quick animations */
+  --exp-animation-duration-medium: 0.6s; /** Standard animation duration */
+  --exp-animation-duration-long: 1.2s; /** Extended animations */
+  --exp-animation-delay-none: 0s; /** No delay */
+  --exp-animation-delay-short: 0.2s; /** Quick delay before animation */
+  --exp-animation-delay-medium: 0.5s; /** Standard delay for animations */
+  --exp-animation-easing-power1-out: power1.out; /** Ease out with slight acceleration */
+  --exp-animation-easing-power2-in-out: power2.inOut; /** Balanced ease in-out for smooth transitions */
+  --exp-animation-easing-back-out: back.out(1.7); /** Back out easing with overshoot effect */
+  --exp-animation-easing-elastic-out: elastic.out(1, 0.3); /** Elastic bounce for expressive animations */
+  --exp-animation-opacity-fade-in: 1; /** Fully visible */
+  --exp-animation-opacity-fade-out: 0; /** Fully hidden */
+  --exp-animation-transform-scale-small: scale(0.95); /** Slight reduction for hover or active states */
+  --exp-animation-transform-scale-large: scale(1.05); /** Slightly enlarged for focus or highlight effects */
+  --exp-animation-transform-translate-up: translateY(-10px); /** Upward translation for entry animations */
+  --exp-animation-transform-translate-down: translateY(10px); /** Downward translation for exit animations */
+  --exp-animation-transform-rotate-small: rotate(15deg); /** Subtle rotation for attention-grabbing animations */
+  --exp-animation-transform-rotate-large: rotate(45deg); /** Strong rotation for significant animation effects */
+  --exp-media-queries-mobile-small-portrait: 320px; /** Small mobile devices in portrait (e.g., iPhone SE) */
+  --exp-media-queries-mobile-small-landscape: 480px; /** Small mobile devices in landscape (e.g., iPhone SE) */
+  --exp-media-queries-mobile-medium-portrait: 375px; /** Medium mobile devices in portrait (e.g., iPhone 11) */
+  --exp-media-queries-mobile-medium-landscape: 667px; /** Medium mobile devices in landscape (e.g., iPhone 11) */
+  --exp-media-queries-mobile-large-portrait: 425px; /** Large mobile devices in portrait (e.g., Pixel 5) */
+  --exp-media-queries-mobile-large-landscape: 768px; /** Large mobile devices in landscape (e.g., Pixel 5) */
+  --exp-media-queries-mobile-extra-large-portrait: 480px; /** Extra-large mobile devices in portrait (e.g., larger Android phones) */
+  --exp-media-queries-mobile-extra-large-landscape: 812px; /** Extra-large mobile devices in landscape (e.g., larger Android phones) */
+  --exp-media-queries-tablet-small: 600px; /** Small tablets (e.g., 7-inch devices) */
+  --exp-media-queries-tablet-medium: 768px; /** Medium tablets (e.g., iPad Mini) */
+  --exp-media-queries-tablet-large: 1024px; /** Large tablets (e.g., iPad Pro) */
+  --exp-media-queries-desktop-small: 1280px; /** Small desktops or large tablets in landscape mode */
+  --exp-media-queries-desktop-medium: 1440px; /** Standard desktops (e.g., MacBook Pro 15-inch) */
+  --exp-media-queries-desktop-large: 1920px; /** Large desktops (e.g., Full HD screens) */
+  --exp-media-queries-desktop-extra-large: 2560px; /** Extra-large desktops (e.g., QHD screens) */
+  --exp-media-queries-television-hd: 1280px; /** HD resolution for TVs */
+  --exp-media-queries-television-full-hd: 1920px; /** Full HD resolution for TVs */
+  --exp-media-queries-television-4k: 3840px; /** 4K UHD resolution for TVs */
+  --exp-media-queries-television-8k: 7680px; /** 8K UHD resolution for TVs */
+  --exp-mode-on-light-background-primary: #ffffff;
+  --exp-mode-on-light-background-secondary: #f9fafb;
+  --exp-mode-on-light-background-tertiary: #e5e7eb;
+  --exp-mode-on-light-text-primary: #111827;
+  --exp-mode-on-light-text-secondary: #6b7280;
+  --exp-mode-on-light-text-disabled: #9ca3af;
+  --exp-mode-on-light-border-default: #d1d5db;
+  --exp-mode-on-light-border-hover: #9ca3af;
+  --exp-mode-on-dark-background-primary: #1f2937;
+  --exp-mode-on-dark-background-secondary: #4b5563;
+  --exp-mode-on-dark-background-tertiary: #6b7280;
+  --exp-mode-on-dark-text-primary: #ffffff;
+  --exp-mode-on-dark-text-secondary: #d1d5db;
+  --exp-mode-on-dark-text-disabled: #9ca3af;
+  --exp-mode-on-dark-border-default: #4b5563;
+  --exp-mode-on-dark-border-hover: #9ca3af;
+  --exp-scale-enumerated-levels-50: 50;
+  --exp-scale-enumerated-levels-100: 100;
+  --exp-scale-enumerated-levels-200: 200;
+  --exp-scale-enumerated-levels-300: 300;
+  --exp-scale-enumerated-levels-400: 400;
+  --exp-scale-enumerated-levels-500: 500;
+  --exp-scale-enumerated-levels-600: 600;
+  --exp-scale-enumerated-levels-700: 700;
+  --exp-scale-enumerated-levels-800: 800;
+  --exp-scale-enumerated-levels-900: 900;
+  --exp-scale-ordered-values-small: 0.75rem;
+  --exp-scale-ordered-values-medium: 1rem;
+  --exp-scale-ordered-values-large: 1.5rem;
+  --exp-scale-ordered-values-extra-large: 2rem;
+  --exp-scale-ordered-values-jumbo: 3rem;
+  --exp-scale-bounded-lightness-scale-10: #17191c;
+  --exp-scale-bounded-lightness-scale-50: #737f8c;
+  --exp-scale-bounded-lightness-scale-90: #e3e6e8;
+  --exp-scale-proportional-base-1x: 1rem;
+  --exp-scale-proportional-base-2x: 2rem;
+  --exp-scale-proportional-base-4x: 4rem;
+  --exp-scale-proportional-base-half: 0.5rem;
+  --exp-scale-proportional-base-quarter: 0.25rem;
+  --exp-scale-tshirt-sizes-xxs: 0.5rem;
+  --exp-scale-tshirt-sizes-xs: 0.75rem;
+  --exp-scale-tshirt-sizes-sm: 1rem;
+  --exp-scale-tshirt-sizes-md: 1.5rem;
+  --exp-scale-tshirt-sizes-lg: 2rem;
+  --exp-scale-tshirt-sizes-xl: 3rem;
+  --exp-scale-tshirt-sizes-xxl: 4rem;
+  --exp-shadow-none: none; /** No shadow */
+  --exp-shadow-small: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08); /** Small shadow for light elements like buttons */
+  --exp-shadow-small-float: 0px 2px 4px rgba(0, 0, 0, 0.2); /** Small floating shadow for light elements like floating action buttons */
+  --exp-shadow-medium: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.08); /** Medium shadow for elements like cards */
+  --exp-shadow-large: 0px 8px 10px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.08); /** Large shadow for modals or overlays */
+  --exp-shadow-extra-large: 0px 12px 15px rgba(0, 0, 0, 0.15), 0px 6px 10px rgba(0, 0, 0, 0.1); /** Extra large shadow for dialogs or focused states */
+  --exp-shadow-floating: 0px 16px 24px rgba(0, 0, 0, 0.2), 0px 8px 12px rgba(0, 0, 0, 0.15); /** High shadow for floating elements or fixed buttons */
+  --exp-shadow-floating-large: 0px 16px 24px hsl(0, 2%, 44%, 0.35), 0px 8px 12px hsl(0, 2%, 44%, 0.40); /** High shadow for floating elements or fixed buttons */
+  --exp-shadow-inner: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+  --exp-shadow-overlay: rgba(0, 0, 0, 0.5);
+  --exp-shadow-box-one: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --exp-sizes-container-small: 400px;
+  --exp-sizes-container-medium: 800px;
+  --exp-sizes-container-large: 1200px;
+  --exp-sizes-container-full-width: 100%;
+  --exp-sizes-radius-none: 0px;
+  --exp-sizes-radius-small: 4px;
+  --exp-sizes-radius-medium: 8px;
+  --exp-sizes-radius-large: 16px;
+  --exp-sizes-radius-pill: 9999px;
+  --exp-sizes-radius-circle: 50%;
+  --exp-sizes-icon-small: 16px;
+  --exp-sizes-icon-medium: 24px;
+  --exp-sizes-icon-large: 32px;
+  --exp-sizes-icon-x-large: 40px;
+  --exp-sizes-avatar-small: 24px;
+  --exp-sizes-avatar-medium: 48px;
+  --exp-sizes-avatar-large: 72px;
+  --exp-sizes-avatar-x-large: 96px;
+  --exp-space-none: 0px;
+  --exp-space-half-x: .125rem;
+  --exp-space-1x: .25rem;
+  --exp-space-2x: .5rem;
+  --exp-space-3x: .75rem;
+  --exp-space-4x: 1rem;
+  --exp-space-5x: 1.25rem;
+  --exp-space-6x: 1.5rem;
+  --exp-space-7x: 1.75rem;
+  --exp-space-8x: 2rem;
+  --exp-space-12x: 3rem;
+  --exp-space-14x: 3.5rem;
+  --exp-space-16x: 4rem;
+  --exp-space-24x: 6rem;
+  --exp-space-32x: 8rem;
+  --exp-space-48x: 12rem;
+  --exp-space-64x: 16rem;
+  --exp-space-inline-none: 0px;
+  --exp-space-inline-half-x: .125rem;
+  --exp-space-inline-1x: .25rem;
+  --exp-space-inline-2x: .5rem;
+  --exp-space-inline-3x: .75rem;
+  --exp-space-inline-4x: 1rem;
+  --exp-space-inline-6x: 1.5rem;
+  --exp-space-inline-8x: 2rem;
+  --exp-space-inline-16x: 4rem;
+  --exp-space-inset-none: 0px;
+  --exp-space-inset-half-x: .125rem;
+  --exp-space-inset-1x: .25rem;
+  --exp-space-inset-2x: .5rem;
+  --exp-space-inset-3x: .75rem;
+  --exp-space-inset-4x: 1rem;
+  --exp-space-inset-6x: 1.5rem;
+  --exp-space-inset-8x: 2rem;
+  --exp-space-inset-12x: 3rem;
+  --exp-space-inset-16x: 4rem;
+  --exp-space-inset-squish-none: 0px;
+  --exp-space-inset-squish-half-x: .125rem .25rem;
+  --exp-space-inset-squish-1x: .25rem .5rem;
+  --exp-space-inset-squish-2x: .5rem 1rem;
+  --exp-space-inset-squish-3x: .75rem 1.25rem;
+  --exp-space-inset-squish-4x: 1rem 2rem;
+  --exp-space-inset-squish-6x: 1.5rem 3rem;
+  --exp-space-inset-stretch-none: 0px;
+  --exp-space-inset-stretch-half-x: .25rem .125rem;
+  --exp-space-inset-stretch-1x: .5rem .25rem;
+  --exp-space-inset-stretch-2x: .75rem .5rem;
+  --exp-space-inset-stretch-3x: 1.5rem .75rem;
+  --exp-space-inset-stretch-4x: 2rem 1rem;
+  --exp-space-inset-stretch-6x: 3rem 1.5rem;
+  --exp-space-stack-none: 0px;
+  --exp-space-stack-half-x: .125rem;
+  --exp-space-stack-1x: .25rem;
+  --exp-space-stack-2x: .5rem;
+  --exp-space-stack-3x: .75rem;
+  --exp-space-stack-4x: 1rem;
+  --exp-space-stack-5x: 1.25rem;
+  --exp-space-stack-6x: 1.5rem;
+  --exp-space-stack-8x: 2rem;
+  --exp-space-stack-12x: 3rem;
+  --exp-space-stack-16x: 4rem;
+  --exp-space-stack-24x: 6rem;
+  --exp-space-stack-32x: 8rem;
+  --exp-state-default-background: #ffffff;
+  --exp-state-default-border: rgba(0, 0, 0, 0.1);
+  --exp-state-default-text: rgba(0, 0, 0, 0.9);
+  --exp-state-hover-background: rgba(0, 0, 0, 0.05);
+  --exp-state-hover-border: rgba(0, 0, 0, 0.1);
+  --exp-state-hover-text: rgba(0, 0, 0, 0.8);
+  --exp-state-press-background: rgba(0, 0, 0, 0.2);
+  --exp-state-press-border: rgba(0, 0, 0, 0.3);
+  --exp-state-press-text: #000000;
+  --exp-state-active-background: rgba(0, 0, 0, 0.1);
+  --exp-state-active-border: rgba(0, 0, 0, 0.2);
+  --exp-state-active-text: #000000;
+  --exp-state-focus-outline: 2px solid rgba(0, 123, 255, 0.8);
+  --exp-state-focus-background: rgba(0, 0, 0, 0.02);
+  --exp-state-focus-text: rgba(0, 0, 0, 0.9);
+  --exp-state-disabled-background: rgba(0, 0, 0, 0.1);
+  --exp-state-disabled-text: rgba(0, 0, 0, 0.4);
+  --exp-state-disabled-border: rgba(0, 0, 0, 0.2);
+  --exp-state-error-background: rgba(255, 0, 0, 0.1);
+  --exp-state-error-text: #ff0000;
+  --exp-state-error-border: rgba(255, 0, 0, 0.8);
+  --exp-state-success-background: rgba(0, 255, 0, 0.1);
+  --exp-state-success-text: #008000;
+  --exp-state-success-border: rgba(0, 128, 0, 0.8);
+  --exp-three-light-intensity-low: 0.5; /** Low-intensity light for ambient scenes */
+  --exp-three-light-intensity-medium: 1; /** Standard intensity for balanced lighting */
+  --exp-three-light-intensity-high: 2; /** High intensity for spotlight effects */
+  --exp-three-light-color-warm: #FFDDC1; /** Warm light color for cozy environments */
+  --exp-three-light-color-cool: #C1EFFF; /** Cool light color for modern or sci-fi themes */
+  --exp-three-light-color-neutral: #FFFFFF; /** Neutral white light for general purpose */
+  --exp-three-material-metalness-none: 0; /** Non-metallic surfaces */
+  --exp-three-material-metalness-semi: 0.5; /** Semi-metallic surfaces */
+  --exp-three-material-metalness-full: 1; /** Fully metallic surfaces */
+  --exp-three-material-roughness-smooth: 0.1; /** Very smooth surfaces with a glossy finish */
+  --exp-three-material-roughness-semi-rough: 0.5; /** Moderately rough surfaces */
+  --exp-three-material-roughness-rough: 1; /** Fully rough surfaces with matte finish */
+  --exp-three-camera-fov-default: 75; /** Default field of view for perspective camera */
+  --exp-three-camera-fov-wide: 90; /** Wider field of view for immersive scenes */
+  --exp-three-camera-fov-narrow: 50; /** Narrow field of view for close-ups */
+  --exp-three-camera-position-default: 0,1,5; /** Standard camera position */
+  --exp-three-camera-position-close-up: 0,1,2; /** Closer position for focused shots */
+  --exp-three-camera-position-high-angle: 0,5,5; /** Higher angle for overhead views */
+  --exp-three-transform-rotation-x: 0.01; /** Slight rotation on the X-axis for dynamic positioning */
+  --exp-three-transform-rotation-y: 0.01; /** Slight rotation on the Y-axis for orbit animations */
+  --exp-three-transform-scale-small: 0.5; /** Small scale for thumbnails or previews */
+  --exp-three-transform-scale-default: 1; /** Default scale */
+  --exp-three-transform-scale-large: 2; /** Larger scale for emphasis or focused views */
+  --exp-touch-target-small: 32px;
+  --exp-touch-target-medium: 40px;
+  --exp-touch-target-large: 48px;
+  --exp-touch-spacing-small: 8px;
+  --exp-touch-spacing-medium: 16px;
+  --exp-touch-spacing-large: 24px;
+  --exp-touch-gesture-swipe-threshold: 50px;
+  --exp-touch-gesture-tap-duration: 0.20s;
+  --exp-touch-gesture-long-press-duration: 0.50s;
+  --exp-units-border-radius-sm: 4px;
+  --exp-units-border-radius-md: 8px;
+  --exp-units-border-radius-lg: 16px;
+  --exp-units-border-radius-pill: 9999px;
+  --exp-units-border-width-thin: .75px;
+  --exp-units-border-width-medium: 1px;
+  --exp-units-border-width-thick: 1.25px;
+  --exp-units-shadow-sm: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  --exp-units-shadow-md: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  --exp-units-shadow-lg: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  --exp-units-opacity-full: 1;
+  --exp-units-opacity-high: 0.9;
+  --exp-units-opacity-medium: 0.6;
+  --exp-units-opacity-low: 0.3;
+  --exp-units-opacity-none: 0;
+  --exp-units-line-height-xs: 1;
+  --exp-units-line-height-sm: 1.25;
+  --exp-units-line-height-md: 1.5;
+  --exp-units-line-height-lg: 1.75;
+  --exp-units-line-height-xl: 2;
+  --exp-units-line-height-dense: 1.2;
+  --exp-units-line-height-loose: 1.8;
+  --exp-variant-success-primary: #4caf50; /** Primary color for success actions and statuses */
+  --exp-variant-success-secondary: #66bb6a; /** Secondary color for success-related components */
+  --exp-variant-success-tertiary: #81c784; /** Tertiary color for subtle success elements */
+  --exp-variant-success-confirmation: #4caf50; /** Used for successful confirmation actions */
+  --exp-variant-success-positive: #66bb6a; /** Used to indicate positive status */
+  --exp-variant-success-success: #81c784; /** General success indicator */
+  --exp-variant-error-primary: #e53935; /** Primary color for error and danger indicators */
+  --exp-variant-error-secondary: #d32f2f; /** Secondary color for alerting errors */
+  --exp-variant-error-tertiary: #f44336; /** Tertiary color for subtle error indicators */
+  --exp-variant-error-danger: #e53935; /** Used to indicate dangerous actions */
+  --exp-variant-error-alert: #d32f2f; /** Used for alert messages related to errors */
+  --exp-variant-error-critical: #c62828; /** Used for critical errors or states */
+  --exp-variant-error-error: #f44336; /** General error indicator */
+  --exp-variant-information-primary: #2196f3; /** Primary color for informational messages */
+  --exp-variant-information-secondary: #64b5f6; /** Secondary color for additional informational elements */
+  --exp-variant-information-tertiary: #bbdefb; /** Tertiary color for subtle informational cues */
+  --exp-variant-information-info: #2196f3; /** Used for informational messages */
+  --exp-variant-information-information: #64b5f6; /** General information indicator */
+  --exp-variant-warning-primary: #ff9800; /** Primary warning color for critical attention */
+  --exp-variant-warning-secondary: #ffa726; /** Secondary warning color for less critical states */
+  --exp-variant-warning-tertiary: #fb8c00; /** Tertiary warning color for subtle caution cues */
+  --exp-variant-warning-default: #ff9800; /** General warning indicator */
+  --exp-variant-warning-caution: #ffa726; /** Used to indicate cautionary actions */
+  --exp-variant-warning-attention: #fb8c00; /** Used for actions that require user attention */
+  --exp-variant-new-primary: #9c27b0; /** Primary color for new or highlighted features */
+  --exp-variant-new-secondary: #ab47bc; /** Secondary color for supporting new features */
+  --exp-variant-new-tertiary: #ba68c8; /** Tertiary color for subtle new indicators */
+  --exp-variant-new-announcement: #9c27b0; /** Used for announcements or newly added features */
+  --exp-variant-new-new-feature: #ab47bc; /** Indicator for new features or items */
+  --exp-variant-new-highlight: #ba68c8; /** Highlight to draw attention to new items */
+  --exp-variant-neutral-primary: #9e9e9e; /** Primary neutral color for base states */
+  --exp-variant-neutral-secondary: #bdbdbd; /** Secondary neutral color for subdued elements */
+  --exp-variant-neutral-tertiary: #e0e0e0; /** Tertiary neutral color for background elements */
+  --exp-variant-neutral-default: #9e9e9e; /** Standard neutral color for non-critical messages */
+}

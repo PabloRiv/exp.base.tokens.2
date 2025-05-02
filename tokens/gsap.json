@@ -1,0 +1,95 @@
+{
+  "exp": {
+    "animation": {
+      "duration": {
+        "short": {
+          "value": "0.3s",
+          "comment": "Quick animations"
+        },
+        "medium": {
+          "value": "0.6s",
+          "comment": "Standard animation duration"
+        },
+        "long": {
+          "value": "1.2s",
+          "comment": "Extended animations"
+        }
+      },
+      "delay": {
+        "none": {
+          "value": "0s",
+          "comment": "No delay"
+        },
+        "short": {
+          "value": "0.2s",
+          "comment": "Quick delay before animation"
+        },
+        "medium": {
+          "value": "0.5s",
+          "comment": "Standard delay for animations"
+        }
+      },
+      "easing": {
+        "power1Out": {
+          "value": "power1.out",
+          "comment": "Ease out with slight acceleration"
+        },
+        "power2InOut": {
+          "value": "power2.inOut",
+          "comment": "Balanced ease in-out for smooth transitions"
+        },
+        "backOut": {
+          "value": "back.out(1.7)",
+          "comment": "Back out easing with overshoot effect"
+        },
+        "elasticOut": {
+          "value": "elastic.out(1, 0.3)",
+          "comment": "Elastic bounce for expressive animations"
+        }
+      },
+      "opacity": {
+        "fadeIn": {
+          "value": "1",
+          "comment": "Fully visible"
+        },
+        "fadeOut": {
+          "value": "0",
+          "comment": "Fully hidden"
+        }
+      },
+      "transform": {
+        "scale": {
+          "small": {
+            "value": "scale(0.95)",
+            "comment": "Slight reduction for hover or active states"
+          },
+          "large": {
+            "value": "scale(1.05)",
+            "comment": "Slightly enlarged for focus or highlight effects"
+          }
+        },
+        "translate": {
+          "up": {
+            "value": "translateY(-10px)",
+            "comment": "Upward translation for entry animations"
+          },
+          "down": {
+            "value": "translateY(10px)",
+            "comment": "Downward translation for exit animations"
+          }
+        },
+        "rotate": {
+          "small": {
+            "value": "rotate(15deg)",
+            "comment": "Subtle rotation for attention-grabbing animations"
+          },
+          "large": {
+            "value": "rotate(45deg)",
+            "comment": "Strong rotation for significant animation effects"
+          }
+        }
+      }
+    }
+  }    
+}
+  

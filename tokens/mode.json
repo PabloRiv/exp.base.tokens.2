@@ -1,0 +1,102 @@
+{
+  "exp": {
+    "mode": {
+      "on-light": {
+        "background": {
+          "primary": {
+            "value": "#FFFFFF",
+            "type": "color",
+            "description": "Primary background color for light mode."
+          },
+          "secondary": {
+            "value": "#F9FAFB",
+            "type": "color",
+            "description": "Secondary background color for light mode."
+          },
+          "tertiary": {
+            "value": "#E5E7EB",
+            "type": "color",
+            "description": "Tertiary background color for light mode."
+          }
+        },
+        "text": {
+          "primary": {
+            "value": "#111827",
+            "type": "color",
+            "description": "Primary text color on light backgrounds."
+          },
+          "secondary": {
+            "value": "#6B7280",
+            "type": "color",
+            "description": "Secondary text color on light backgrounds."
+          },
+          "disabled": {
+            "value": "#9CA3AF",
+            "type": "color",
+            "description": "Disabled text color on light backgrounds."
+          }
+        },
+        "border": {
+          "default": {
+            "value": "#D1D5DB",
+            "type": "color",
+            "description": "Default border color on light backgrounds."
+          },
+          "hover": {
+            "value": "#9CA3AF",
+            "type": "color",
+            "description": "Border color for hover state on light backgrounds."
+          }
+        }
+      },
+      "on-dark": {
+        "background": {
+          "primary": {
+            "value": "#1F2937",
+            "type": "color",
+            "description": "Primary background color for dark mode."
+          },
+          "secondary": {
+            "value": "#4B5563",
+            "type": "color",
+            "description": "Secondary background color for dark mode."
+          },
+          "tertiary": {
+            "value": "#6B7280",
+            "type": "color",
+            "description": "Tertiary background color for dark mode."
+          }
+        },
+        "text": {
+          "primary": {
+            "value": "#FFFFFF",
+            "type": "color",
+            "description": "Primary text color on dark backgrounds."
+          },
+          "secondary": {
+            "value": "#D1D5DB",
+            "type": "color",
+            "description": "Secondary text color on dark backgrounds."
+          },
+          "disabled": {
+            "value": "#9CA3AF",
+            "type": "color",
+            "description": "Disabled text color on dark backgrounds."
+          }
+        },
+        "border": {
+          "default": {
+            "value": "#4B5563",
+            "type": "color",
+            "description": "Default border color on dark backgrounds."
+          },
+          "hover": {
+            "value": "#9CA3AF",
+            "type": "color",
+            "description": "Border color for hover state on dark backgrounds."
+          }
+        }
+      }
+    }
+  }
+} 

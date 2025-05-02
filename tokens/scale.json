@@ -1,0 +1,176 @@
+{
+  "exp": {
+    "scale": {
+      "enumerated": {
+        "levels": {
+          "50": {
+            "value": "50",
+            "type": "number",
+            "description": "Lowest level, often used for the lightest or smallest scale."
+          },
+          "100": {
+            "value": "100",
+            "type": "number",
+            "description": "Slightly larger or stronger scale."
+          },
+          "200": {
+            "value": "200",
+            "type": "number",
+            "description": "Medium-low scale value."
+          },
+          "300": {
+            "value": "300",
+            "type": "number",
+            "description": "Neutral medium scale value."
+          },
+          "400": {
+            "value": "400",
+            "type": "number",
+            "description": "Medium-high scale value."
+          },
+          "500": {
+            "value": "500",
+            "type": "number",
+            "description": "Default base scale."
+          },
+          "600": {
+            "value": "600",
+            "type": "number",
+            "description": "Higher scale value, often used for emphasis."
+          },
+          "700": {
+            "value": "700",
+            "type": "number",
+            "description": "Strong emphasis scale."
+          },
+          "800": {
+            "value": "800",
+            "type": "number",
+            "description": "Very high scale value."
+          },
+          "900": {
+            "value": "900",
+            "type": "number",
+            "description": "Highest scale value, often used for maximum intensity."
+          }
+        }
+      },
+      "ordered": {
+        "values": {
+          "small": {
+            "value": "0.75rem",
+            "type": "dimension",
+            "description": "Small size, typically used for compact elements."
+          },
+          "medium": {
+            "value": "1rem",
+            "type": "dimension",
+            "description": "Medium size, used as the default scale for general elements."
+          },
+          "large": {
+            "value": "1.5rem",
+            "type": "dimension",
+            "description": "Large size, suitable for prominent or spacious elements."
+          },
+          "extraLarge": {
+            "value": "2rem",
+            "type": "dimension",
+            "description": "Extra large size for headers or major UI elements."
+          },
+          "jumbo": {
+            "value": "3rem",
+            "type": "dimension",
+            "description": "Jumbo size, often used for hero elements or major highlights."
+          }
+        }
+      },
+      "bounded": {
+        "lightness": {
+          "scale": {
+            "10": {
+              "value": "hsl(210, 10%, 10%)",
+              "type": "color",
+              "description": "Darkest lightness value."
+            },
+            "50": {
+              "value": "hsl(210, 10%, 50%)",
+              "type": "color",
+              "description": "Mid-point lightness value."
+            },
+            "90": {
+              "value": "hsl(210, 10%, 90%)",
+              "type": "color",
+              "description": "Lightest lightness value."
+            }
+          }
+        }
+      },
+      "proportional": {
+        "base": {
+          "1x": {
+            "value": "1rem",
+            "type": "dimension",
+            "description": "Base proportional size."
+          },
+          "2x": {
+            "value": "2rem",
+            "type": "dimension",
+            "description": "Double the base size."
+          },
+          "4x": {
+            "value": "4rem",
+            "type": "dimension",
+            "description": "Quadruple the base size."
+          },
+          "half": {
+            "value": "0.5rem",
+            "type": "dimension",
+            "description": "Half the base size."
+          },
+          "quarter": {
+            "value": "0.25rem",
+            "type": "dimension",
+            "description": "Quarter of the base size."
+          }
+        }
+      },
+      "tshirtSizes": {
+        "xxs": {
+          "value": "0.5rem",
+          "type": "dimension",
+          "description": "Extra extra small size."
+        },
+        "xs": {
+          "value": "0.75rem",
+          "type": "dimension",
+          "description": "Extra small size."
+        },
+        "sm": {
+          "value": "1rem",
+          "type": "dimension",
+          "description": "Small size."
+        },
+        "md": {
+          "value": "1.5rem",
+          "type": "dimension",
+          "description": "Medium size."
+        },
+        "lg": {
+          "value": "2rem",
+          "type": "dimension",
+          "description": "Large size."
+        },
+        "xl": {
+          "value": "3rem",
+          "type": "dimension",
+          "description": "Extra large size."
+        },
+        "xxl": {
+          "value": "4rem",
+          "type": "dimension",
+          "description": "Extra extra large size."
+        }
+      }
+    }
+  }
+}
