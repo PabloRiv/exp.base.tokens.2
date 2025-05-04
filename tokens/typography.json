@@ -1,0 +1,16 @@
+{
+  "exp": {
+    "button/default": {
+      "type": "typography",
+      "value": {
+        "fontFamily": "Inter",
+        "fontWeight": "{fontWeight.button.value}",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "letterSpacing": "0.5px",
+        "textDecoration": "none",
+        "textCase": "uppercase"
+      }
+    }
+  }
+}

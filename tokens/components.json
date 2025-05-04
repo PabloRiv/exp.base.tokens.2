@@ -563,33 +563,13 @@
           }
         },
         "font-weight": {
-          "thin": {
-            "value": "{exp.font.fontWeight.thin}",
-            "type": "fontWeight"
-          },
-          "light": {
-            "value": "{exp.font.fontWeight.light}",
-            "type": "fontWeight"
-          },
-          "regular": {
-            "value": "{exp.font.fontWeight.regular}",
-            "type": "fontWeight"
-          },
-          "medium": {
-            "value": "{exp.font.fontWeight.medium}",
-            "type": "fontWeight"
-          },
-          "semiBold": {
-            "value": "{exp.font.fontWeight.semiBold}",
-            "type": "fontWeight"
-          },
           "bold": {
             "value": "{exp.font.fontWeight.bold}",
             "type": "fontWeight"
           },
-          "extraBold": {
-            "value": "{exp.font.fontWeight.extraBold}",
-            "type": "fontWeight"
+          "default": {
+            "value": "exp.components.button.fontWeight.bold",
+            "type": "other"
           }
         },
         "border-color": {
