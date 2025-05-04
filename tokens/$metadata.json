@@ -1,0 +1,24 @@
+{
+  "tokenSetOrder": [
+    "color",
+    "components",
+    "concept",
+    "element",
+    "elevation",
+    "font",
+    "group",
+    "gsap",
+    "mediaquery",
+    "mode",
+    "scale",
+    "shadow",
+    "size",
+    "space",
+    "state",
+    "test",
+    "threejs",
+    "touch",
+    "units",
+    "variant"
+  ]
+}

@@ -4,92 +4,109 @@
       "duration": {
         "short": {
           "value": "0.3s",
-          "comment": "Quick animations"
+          "comment": "Quick animations",
+          "type": "other"
         },
         "medium": {
           "value": "0.6s",
-          "comment": "Standard animation duration"
+          "comment": "Standard animation duration",
+          "type": "other"
         },
         "long": {
           "value": "1.2s",
-          "comment": "Extended animations"
+          "comment": "Extended animations",
+          "type": "other"
         }
       },
       "delay": {
         "none": {
           "value": "0s",
-          "comment": "No delay"
+          "comment": "No delay",
+          "type": "other"
         },
         "short": {
           "value": "0.2s",
-          "comment": "Quick delay before animation"
+          "comment": "Quick delay before animation",
+          "type": "other"
         },
         "medium": {
           "value": "0.5s",
-          "comment": "Standard delay for animations"
+          "comment": "Standard delay for animations",
+          "type": "other"
         }
       },
       "easing": {
         "power1Out": {
           "value": "power1.out",
-          "comment": "Ease out with slight acceleration"
+          "comment": "Ease out with slight acceleration",
+          "type": "other"
         },
         "power2InOut": {
           "value": "power2.inOut",
-          "comment": "Balanced ease in-out for smooth transitions"
+          "comment": "Balanced ease in-out for smooth transitions",
+          "type": "other"
         },
         "backOut": {
           "value": "back.out(1.7)",
-          "comment": "Back out easing with overshoot effect"
+          "comment": "Back out easing with overshoot effect",
+          "type": "other"
         },
         "elasticOut": {
           "value": "elastic.out(1, 0.3)",
-          "comment": "Elastic bounce for expressive animations"
+          "comment": "Elastic bounce for expressive animations",
+          "type": "other"
         }
       },
       "opacity": {
         "fadeIn": {
           "value": "1",
-          "comment": "Fully visible"
+          "comment": "Fully visible",
+          "type": "other"
         },
         "fadeOut": {
           "value": "0",
-          "comment": "Fully hidden"
+          "comment": "Fully hidden",
+          "type": "other"
         }
       },
       "transform": {
         "scale": {
           "small": {
             "value": "scale(0.95)",
-            "comment": "Slight reduction for hover or active states"
+            "comment": "Slight reduction for hover or active states",
+            "type": "other"
           },
           "large": {
             "value": "scale(1.05)",
-            "comment": "Slightly enlarged for focus or highlight effects"
+            "comment": "Slightly enlarged for focus or highlight effects",
+            "type": "other"
           }
         },
         "translate": {
           "up": {
             "value": "translateY(-10px)",
-            "comment": "Upward translation for entry animations"
+            "comment": "Upward translation for entry animations",
+            "type": "other"
           },
           "down": {
             "value": "translateY(10px)",
-            "comment": "Downward translation for exit animations"
+            "comment": "Downward translation for exit animations",
+            "type": "other"
           }
         },
         "rotate": {
           "small": {
             "value": "rotate(15deg)",
-            "comment": "Subtle rotation for attention-grabbing animations"
+            "comment": "Subtle rotation for attention-grabbing animations",
+            "type": "other"
           },
           "large": {
             "value": "rotate(45deg)",
-            "comment": "Strong rotation for significant animation effects"
+            "comment": "Strong rotation for significant animation effects",
+            "type": "other"
           }
         }
       }
     }
-  }    
+  }
 }
-  

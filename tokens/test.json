@@ -1,11 +1,10 @@
 {
-    "test": {
-      "color": {
-        "primary": {
-          "$value": "#0077CC",
-          "$type": "color"
-        }
+  "test": {
+    "color": {
+      "primary": {
+        "value": "#0077CC",
+        "type": "color"
       }
     }
   }
-  
+}

@@ -1,78 +1,267 @@
 {
   "exp": {
     "space": {
-      "none": { "value": "0px" },
-      "half-x": { "value": ".125rem" },
-      "1x": { "value": ".25rem" },
-      "2x": { "value": ".5rem" },
-      "3x": { "value": ".75rem" },
-      "4x": { "value": "1rem" },
-      "5x": { "value": "1.25rem" },
-      "6x": { "value": "1.5rem" },
-      "7x": { "value": "1.75rem" },
-      "8x": { "value": "2rem" },
-      "12x": { "value": "3rem" },
-      "14x": { "value": "3.5rem" },
-      "16x": { "value": "4rem" },
-      "24x": { "value": "6rem" },
-      "32x": { "value": "8rem" },
-      "48x": { "value": "12rem" },
-      "64x": { "value": "16rem" },
+      "none": {
+        "value": "0px",
+        "type": "other"
+      },
+      "half-x": {
+        "value": ".125rem",
+        "type": "other"
+      },
+      "1x": {
+        "value": ".25rem",
+        "type": "other"
+      },
+      "2x": {
+        "value": ".5rem",
+        "type": "other"
+      },
+      "3x": {
+        "value": ".75rem",
+        "type": "other"
+      },
+      "4x": {
+        "value": "1rem",
+        "type": "other"
+      },
+      "5x": {
+        "value": "1.25rem",
+        "type": "other"
+      },
+      "6x": {
+        "value": "1.5rem",
+        "type": "other"
+      },
+      "7x": {
+        "value": "1.75rem",
+        "type": "other"
+      },
+      "8x": {
+        "value": "2rem",
+        "type": "other"
+      },
+      "12x": {
+        "value": "3rem",
+        "type": "other"
+      },
+      "14x": {
+        "value": "3.5rem",
+        "type": "other"
+      },
+      "16x": {
+        "value": "4rem",
+        "type": "other"
+      },
+      "24x": {
+        "value": "6rem",
+        "type": "other"
+      },
+      "32x": {
+        "value": "8rem",
+        "type": "other"
+      },
+      "48x": {
+        "value": "12rem",
+        "type": "other"
+      },
+      "64x": {
+        "value": "16rem",
+        "type": "other"
+      },
       "inline": {
-        "none": { "value": "{exp.space.none.value}" },
-        "half-x": { "value": "{exp.space.half-x.value}" },
-        "1x": { "value": "{exp.space.1x.value}" },
-        "2x": { "value": "{exp.space.2x.value}" },
-        "3x": { "value": "{exp.space.3x.value}" },
-        "4x": { "value": "{exp.space.4x.value}" },
-        "6x": { "value": "{exp.space.6x.value}" },
-        "8x": { "value": "{exp.space.8x.value}" },
-        "16x": { "value": "{exp.space.16x.value}" }
+        "none": {
+          "value": "{exp.space.none.value}",
+          "type": "other"
+        },
+        "half-x": {
+          "value": "{exp.space.half-x.value}",
+          "type": "other"
+        },
+        "1x": {
+          "value": "{exp.space.1x.value}",
+          "type": "other"
+        },
+        "2x": {
+          "value": "{exp.space.2x.value}",
+          "type": "other"
+        },
+        "3x": {
+          "value": "{exp.space.3x.value}",
+          "type": "other"
+        },
+        "4x": {
+          "value": "{exp.space.4x.value}",
+          "type": "other"
+        },
+        "6x": {
+          "value": "{exp.space.6x.value}",
+          "type": "other"
+        },
+        "8x": {
+          "value": "{exp.space.8x.value}",
+          "type": "other"
+        },
+        "16x": {
+          "value": "{exp.space.16x.value}",
+          "type": "other"
+        }
       },
       "inset": {
-        "none": { "value": "{exp.space.none.value}" },
-        "half-x": { "value": "{exp.space.half-x.value}" },
-        "1x": { "value": "{exp.space.1x.value}" },
-        "2x": { "value": "{exp.space.2x.value}" },
-        "3x": { "value": "{exp.space.3x.value}" },
-        "4x": { "value": "{exp.space.4x.value}" },
-        "6x": { "value": "{exp.space.6x.value}" },
-        "8x": { "value": "{exp.space.8x.value}" },
-        "12x": { "value": "{exp.space.12x.value}" },
-        "16x": { "value": "{exp.space.16x.value}" }
+        "none": {
+          "value": "{exp.space.none.value}",
+          "type": "other"
+        },
+        "half-x": {
+          "value": "{exp.space.half-x.value}",
+          "type": "other"
+        },
+        "1x": {
+          "value": "{exp.space.1x.value}",
+          "type": "other"
+        },
+        "2x": {
+          "value": "{exp.space.2x.value}",
+          "type": "other"
+        },
+        "3x": {
+          "value": "{exp.space.3x.value}",
+          "type": "other"
+        },
+        "4x": {
+          "value": "{exp.space.4x.value}",
+          "type": "other"
+        },
+        "6x": {
+          "value": "{exp.space.6x.value}",
+          "type": "other"
+        },
+        "8x": {
+          "value": "{exp.space.8x.value}",
+          "type": "other"
+        },
+        "12x": {
+          "value": "{exp.space.12x.value}",
+          "type": "other"
+        },
+        "16x": {
+          "value": "{exp.space.16x.value}",
+          "type": "other"
+        }
       },
       "inset-squish": {
-        "none": { "value": "{exp.space.none.value}" },
-        "half-x": { "value": "{exp.space.half-x.value} {exp.space.1x.value}" },
-        "1x": { "value": "{exp.space.1x.value} {exp.space.2x.value}" },
-        "2x": { "value": "{exp.space.2x.value} {exp.space.4x.value}" },
-        "3x": { "value": "{exp.space.3x.value} {exp.space.5x.value}" },
-        "4x": { "value": "{exp.space.4x.value} {exp.space.8x.value}" },
-        "6x": { "value": "{exp.space.6x.value} {exp.space.12x.value}" }
+        "none": {
+          "value": "{exp.space.none.value}",
+          "type": "other"
+        },
+        "half-x": {
+          "value": "{exp.space.half-x.value} {exp.space.1x.value}",
+          "type": "other"
+        },
+        "1x": {
+          "value": "{exp.space.1x.value} {exp.space.2x.value}",
+          "type": "other"
+        },
+        "2x": {
+          "value": "{exp.space.2x.value} {exp.space.4x.value}",
+          "type": "other"
+        },
+        "3x": {
+          "value": "{exp.space.3x.value} {exp.space.5x.value}",
+          "type": "other"
+        },
+        "4x": {
+          "value": "{exp.space.4x.value} {exp.space.8x.value}",
+          "type": "other"
+        },
+        "6x": {
+          "value": "{exp.space.6x.value} {exp.space.12x.value}",
+          "type": "other"
+        }
       },
       "inset-stretch": {
-        "none": { "value": "{exp.space.none.value}" },
-        "half-x": { "value": "{exp.space.1x.value} {exp.space.half-x.value}" },
-        "1x": { "value": "{exp.space.2x.value} {exp.space.1x.value}" },
-        "2x": { "value": "{exp.space.3x.value} {exp.space.2x.value}" },
-        "3x": { "value": "{exp.space.6x.value} {exp.space.3x.value}" },
-        "4x": { "value": "{exp.space.8x.value} {exp.space.4x.value}" },
-        "6x": { "value": "{exp.space.12x.value} {exp.space.6x.value}" }
+        "none": {
+          "value": "{exp.space.none.value}",
+          "type": "other"
+        },
+        "half-x": {
+          "value": "{exp.space.1x.value} {exp.space.half-x.value}",
+          "type": "other"
+        },
+        "1x": {
+          "value": "{exp.space.2x.value} {exp.space.1x.value}",
+          "type": "other"
+        },
+        "2x": {
+          "value": "{exp.space.3x.value} {exp.space.2x.value}",
+          "type": "other"
+        },
+        "3x": {
+          "value": "{exp.space.6x.value} {exp.space.3x.value}",
+          "type": "other"
+        },
+        "4x": {
+          "value": "{exp.space.8x.value} {exp.space.4x.value}",
+          "type": "other"
+        },
+        "6x": {
+          "value": "{exp.space.12x.value} {exp.space.6x.value}",
+          "type": "other"
+        }
       },
       "stack": {
-        "none": { "value": "{exp.space.none.value}" },
-        "half-x": { "value": "{exp.space.half-x.value}" },
-        "1x": { "value": "{exp.space.1x.value}" },
-        "2x": { "value": "{exp.space.2x.value}" },
-        "3x": { "value": "{exp.space.3x.value}" },
-        "4x": { "value": "{exp.space.4x.value}" },
-        "5x": { "value": "{exp.space.5x.value}" },
-        "6x": { "value": "{exp.space.6x.value}" },
-        "8x": { "value": "{exp.space.8x.value}" },
-        "12x": { "value": "{exp.space.12x.value}" },
-        "16x": { "value": "{exp.space.16x.value}" },
-        "24x": { "value": "{exp.space.24x.value}" },
-        "32x": { "value": "{exp.space.32x.value}" }
+        "none": {
+          "value": "{exp.space.none.value}",
+          "type": "other"
+        },
+        "half-x": {
+          "value": "{exp.space.half-x.value}",
+          "type": "other"
+        },
+        "1x": {
+          "value": "{exp.space.1x.value}",
+          "type": "other"
+        },
+        "2x": {
+          "value": "{exp.space.2x.value}",
+          "type": "other"
+        },
+        "3x": {
+          "value": "{exp.space.3x.value}",
+          "type": "other"
+        },
+        "4x": {
+          "value": "{exp.space.4x.value}",
+          "type": "other"
+        },
+        "5x": {
+          "value": "{exp.space.5x.value}",
+          "type": "other"
+        },
+        "6x": {
+          "value": "{exp.space.6x.value}",
+          "type": "other"
+        },
+        "8x": {
+          "value": "{exp.space.8x.value}",
+          "type": "other"
+        },
+        "12x": {
+          "value": "{exp.space.12x.value}",
+          "type": "other"
+        },
+        "16x": {
+          "value": "{exp.space.16x.value}",
+          "type": "other"
+        },
+        "24x": {
+          "value": "{exp.space.24x.value}",
+          "type": "other"
+        },
+        "32x": {
+          "value": "{exp.space.32x.value}",
+          "type": "other"
+        }
       }
     }
   }

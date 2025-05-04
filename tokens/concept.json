@@ -3,56 +3,128 @@
     "concept": {
       "heading": {
         "font-size": {
-          "large": { "value": "32px", "type": "dimension" },
-          "medium": { "value": "24px", "type": "dimension" },
-          "small": { "value": "18px", "type": "dimension" }
+          "large": {
+            "value": "32px",
+            "type": "dimension"
+          },
+          "medium": {
+            "value": "24px",
+            "type": "dimension"
+          },
+          "small": {
+            "value": "18px",
+            "type": "dimension"
+          }
         },
         "font-weight": {
-          "default": { "value": "700", "type": "fontWeight" }
+          "default": {
+            "value": "700",
+            "type": "fontWeight"
+          }
         },
         "line-height": {
-          "default": { "value": "1.2", "type": "lineHeight" }
+          "default": {
+            "value": "1.2",
+            "type": "lineHeight"
+          }
         },
         "aliases": {
-          "header": { "value": "heading", "type": "reference" },
-          "heading-level": { "value": "heading", "type": "reference" },
-          "headline": { "value": "heading", "type": "reference" },
-          "display": { "value": "heading", "type": "reference" }
+          "header": {
+            "value": "heading",
+            "type": "reference"
+          },
+          "heading-level": {
+            "value": "heading",
+            "type": "reference"
+          },
+          "headline": {
+            "value": "heading",
+            "type": "reference"
+          },
+          "display": {
+            "value": "heading",
+            "type": "reference"
+          }
         }
       },
       "body": {
         "font-size": {
-          "default": { "value": "16px", "type": "dimension" },
-          "small": { "value": "14px", "type": "dimension" }
+          "default": {
+            "value": "16px",
+            "type": "dimension"
+          },
+          "small": {
+            "value": "14px",
+            "type": "dimension"
+          }
         },
         "font-weight": {
-          "default": { "value": "400", "type": "fontWeight" }
+          "default": {
+            "value": "400",
+            "type": "fontWeight"
+          }
         },
         "line-height": {
-          "default": { "value": "1.5", "type": "lineHeight" }
+          "default": {
+            "value": "1.5",
+            "type": "lineHeight"
+          }
         },
         "color": {
-          "default": { "value": "#333333", "type": "color" },
-          "muted": { "value": "#666666", "type": "color" }
+          "default": {
+            "value": "#333333",
+            "type": "color"
+          },
+          "muted": {
+            "value": "#666666",
+            "type": "color"
+          }
         }
       },
       "feedback": {
         "success": {
-          "background-color": { "value": "#DFF0D8", "type": "color" },
-          "text-color": { "value": "#3C763D", "type": "color" }
+          "background-color": {
+            "value": "#DFF0D8",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "#3C763D",
+            "type": "color"
+          }
         },
         "error": {
-          "background-color": { "value": "#F2DEDE", "type": "color" },
-          "text-color": { "value": "#A94442", "type": "color" }
+          "background-color": {
+            "value": "#F2DEDE",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "#A94442",
+            "type": "color"
+          }
         },
         "warning": {
-          "background-color": { "value": "#FCF8E3", "type": "color" },
-          "text-color": { "value": "#8A6D3B", "type": "color" }
+          "background-color": {
+            "value": "#FCF8E3",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "#8A6D3B",
+            "type": "color"
+          }
         },
         "aliases": {
-          "alert": { "value": "feedback", "type": "reference" },
-          "notification": { "value": "feedback", "type": "reference" },
-          "messaging": { "value": "feedback", "type": "reference" }
+          "alert": {
+            "value": "feedback",
+            "type": "reference"
+          },
+          "notification": {
+            "value": "feedback",
+            "type": "reference"
+          },
+          "messaging": {
+            "value": "feedback",
+            "type": "reference"
+          }
         }
       },
       "visualization": {
@@ -73,9 +145,18 @@
           "type": "color"
         },
         "aliases": {
-          "dataviz": { "value": "visualization", "type": "reference" },
-          "charts": { "value": "visualization", "type": "reference" },
-          "charting": { "value": "visualization", "type": "reference" }
+          "dataviz": {
+            "value": "visualization",
+            "type": "reference"
+          },
+          "charts": {
+            "value": "visualization",
+            "type": "reference"
+          },
+          "charting": {
+            "value": "visualization",
+            "type": "reference"
+          }
         }
       },
       "allocation": {
@@ -97,35 +178,80 @@
       },
       "action": {
         "primary": {
-          "background-color": { "value": "#007BFF", "type": "color" },
-          "text-color": { "value": "#FFFFFF", "type": "color" }
+          "background-color": {
+            "value": "#007BFF",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "#FFFFFF",
+            "type": "color"
+          }
         },
         "secondary": {
-          "background-color": { "value": "#6C757D", "type": "color" },
-          "text-color": { "value": "#FFFFFF", "type": "color" }
+          "background-color": {
+            "value": "#6C757D",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "#FFFFFF",
+            "type": "color"
+          }
         },
         "disabled": {
-          "background-color": { "value": "#CCCCCC", "type": "color" },
-          "text-color": { "value": "#666666", "type": "color" }
+          "background-color": {
+            "value": "#CCCCCC",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "#666666",
+            "type": "color"
+          }
         },
         "aliases": {
-          "cta": { "value": "action", "type": "reference" },
-          "interactive": { "value": "action", "type": "reference" },
-          "interaction": { "value": "action", "type": "reference" }
+          "cta": {
+            "value": "action",
+            "type": "reference"
+          },
+          "interactive": {
+            "value": "action",
+            "type": "reference"
+          },
+          "interaction": {
+            "value": "action",
+            "type": "reference"
+          }
         }
       },
       "commerce": {
         "price": {
-          "font-size": { "value": "18px", "type": "dimension" },
-          "color": { "value": "#FF5733", "type": "color" }
+          "font-size": {
+            "value": "18px",
+            "type": "dimension"
+          },
+          "color": {
+            "value": "#FF5733",
+            "type": "color"
+          }
         },
         "discount": {
-          "color": { "value": "#D32F2F", "type": "color" },
-          "font-weight": { "value": "700", "type": "fontWeight" }
+          "color": {
+            "value": "#D32F2F",
+            "type": "color"
+          },
+          "font-weight": {
+            "value": "700",
+            "type": "fontWeight"
+          }
         },
         "availability": {
-          "in-stock": { "value": "#4CAF50", "type": "color" },
-          "out-of-stock": { "value": "#A94442", "type": "color" }
+          "in-stock": {
+            "value": "#4CAF50",
+            "type": "color"
+          },
+          "out-of-stock": {
+            "value": "#A94442",
+            "type": "color"
+          }
         }
       }
     }

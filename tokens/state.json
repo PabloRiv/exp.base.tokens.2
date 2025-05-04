@@ -137,7 +137,6 @@
           "description": "Border color for success state."
         }
       }
-      }
     }
   }
-  
+}
