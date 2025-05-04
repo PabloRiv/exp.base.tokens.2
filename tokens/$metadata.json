@@ -19,6 +19,7 @@
     "threejs",
     "touch",
     "units",
-    "variant"
+    "variant",
+    "typography"
   ]
 }
