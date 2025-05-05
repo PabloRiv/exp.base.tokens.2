@@ -562,14 +562,10 @@
             "type": "fontSize"
           }
         },
-        "font-weight": {
-          "bold": {
+        "font-weight": {          
+          "default": {
             "value": "{exp.font.fontWeight.bold}",
             "type": "fontWeight"
-          },
-          "default": {
-            "value": "exp.components.button.fontWeight.bold",
-            "type": "other"
           }
         },
         "border-color": {
