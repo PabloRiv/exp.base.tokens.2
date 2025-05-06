@@ -3682,9 +3682,5 @@
         }
       }
     }
-  },
-  "default": {
-    "value": "Montserrat",
-    "type": "fontFamilies"
   }
 }
