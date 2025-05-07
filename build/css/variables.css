@@ -132,6 +132,7 @@
   --exp-composition-icon-stroke-default: hsl(0, 0%, 1%);
   --exp-composition-accordion-background-color-primary: hsl(280, 60%, 65%);
   --exp-composition-accordion-background-color-secondary: hsl(220, 100%, 53%);
+  --exp-composition-accordion-background-color-terciary: hsl(195, 85%, 50%);
   --exp-composition-accordion-background-color-disabled: hsl(0, 0%, 85%);
   --exp-composition-accordion-background-color-hover-not-disabled: hsl(220, 100%, 33%);
   --exp-composition-accordion-background-color-hover-disabled: hsl(0, 0%, 75%);
@@ -240,6 +241,7 @@
   --exp-composition-action-menu-result-item-background-color-hover: hsl(220, 100%, 53%);
   --exp-composition-button-background-color-primary: hsl(280, 40%, 45%);
   --exp-composition-button-background-color-secondary: hsl(220, 100%, 53%);
+  --exp-composition-button-background-color-terciary: hsl(195, 85%, 50%);
   --exp-composition-button-background-color-disabled: hsl(0, 0%, 85%);
   --exp-composition-button-background-color-hover-not-disabled: hsl(220, 100%, 33%);
   --exp-composition-button-background-color-hover-disabled: hsl(0, 0%, 75%);
@@ -264,6 +266,7 @@
   --exp-composition-button-padding-large: 1rem 1.5rem;
   --exp-composition-button-border-radius-default: 4px;
   --exp-composition-button-border-radius-pill: 9999px;
+  --exp-composition-button-font: Open Sans, sans-serif;
   --exp-composition-button-group-gap: .25rem;
   --exp-composition-dropdown-width: 12rem;
   --exp-composition-dropdown-label-font-size: .875rem;

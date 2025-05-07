@@ -162,6 +162,7 @@ internal struct StyleDictionaryStruct {
     internal static let expCompositionAccordionBackgroundColorHoverNotDisabled = hsl(220, 100%, 33%)
     internal static let expCompositionAccordionBackgroundColorPrimary = hsl(280, 60%, 65%)
     internal static let expCompositionAccordionBackgroundColorSecondary = hsl(220, 100%, 53%)
+    internal static let expCompositionAccordionBackgroundColorTerciary = hsl(195, 85%, 50%)
     internal static let expCompositionAccordionBorderBarBottom = 2px solid hsl(0, 0%, 85%)
     internal static let expCompositionAccordionBorderButtomBottom = 2px solid transparent
     internal static let expCompositionAccordionBorderButton = none
@@ -275,12 +276,14 @@ internal struct StyleDictionaryStruct {
     internal static let expCompositionButtonBackgroundColorHoverNotDisabled = hsl(220, 100%, 33%)
     internal static let expCompositionButtonBackgroundColorPrimary = hsl(280, 40%, 45%)
     internal static let expCompositionButtonBackgroundColorSecondary = hsl(220, 100%, 53%)
+    internal static let expCompositionButtonBackgroundColorTerciary = hsl(195, 85%, 50%)
     internal static let expCompositionButtonBorderColorDisabled = UIColor(red: 0.961, green: 0.961, blue: 0.961, alpha: 1)
     internal static let expCompositionButtonBorderColorNone = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0)
     internal static let expCompositionButtonBorderColorPrimary = hsl(280, 40%, 45%)
     internal static let expCompositionButtonBorderColorSecondary = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1)
     internal static let expCompositionButtonBorderRadiusDefault = 4px
     internal static let expCompositionButtonBorderRadiusPill = 9999px
+    internal static let expCompositionButtonFont = Open Sans, sans-serif
     internal static let expCompositionButtonFontSizeLarge = 1.25rem
     internal static let expCompositionButtonFontSizeMedium = 1rem
     internal static let expCompositionButtonFontSizeSmall = .875rem
