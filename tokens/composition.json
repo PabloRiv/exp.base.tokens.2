@@ -25,6 +25,10 @@
             "value": "{exp.color.secondary.500}",
             "type": "color"
           },
+          "terciary": {
+            "value": "{exp.color.terciary.500}",
+            "type": "color"
+          },
           "disabled": {
             "value": "{exp.color.neutral.200}",
             "type": "color"
@@ -499,6 +503,10 @@
           },
           "secondary": {
             "value": "{exp.color.secondary.500}",
+            "type": "color"
+          },
+          "terciary": {
+            "value": "{exp.color.terciary.500}",
             "type": "color"
           },
           "disabled": {
