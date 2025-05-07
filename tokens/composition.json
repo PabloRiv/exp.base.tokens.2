@@ -562,7 +562,7 @@
             "type": "fontSize"
           }
         },
-        "font-weight": {          
+        "font-weight": {
           "default": {
             "value": "{exp.font.fontWeight.bold}",
             "type": "fontWeight"
@@ -609,6 +609,10 @@
             "value": "9999px",
             "type": "borderRadius"
           }
+        },
+        "font": {
+          "value": "{exp.font.fonts.sans}",
+          "type": "font"
         }
       },
       "button-group": {
