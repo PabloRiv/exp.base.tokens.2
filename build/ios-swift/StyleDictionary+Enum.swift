@@ -162,6 +162,7 @@ public enum StyleDictionaryEnum {
     public static let expCompositionAccordionBackgroundColorHoverNotDisabled = hsl(220, 100%, 33%)
     public static let expCompositionAccordionBackgroundColorPrimary = hsl(280, 60%, 65%)
     public static let expCompositionAccordionBackgroundColorSecondary = hsl(220, 100%, 53%)
+    public static let expCompositionAccordionBackgroundColorTerciary = hsl(195, 85%, 50%)
     public static let expCompositionAccordionBorderBarBottom = 2px solid hsl(0, 0%, 85%)
     public static let expCompositionAccordionBorderButtomBottom = 2px solid transparent
     public static let expCompositionAccordionBorderButton = none
@@ -275,12 +276,14 @@ public enum StyleDictionaryEnum {
     public static let expCompositionButtonBackgroundColorHoverNotDisabled = hsl(220, 100%, 33%)
     public static let expCompositionButtonBackgroundColorPrimary = hsl(280, 40%, 45%)
     public static let expCompositionButtonBackgroundColorSecondary = hsl(220, 100%, 53%)
+    public static let expCompositionButtonBackgroundColorTerciary = hsl(195, 85%, 50%)
     public static let expCompositionButtonBorderColorDisabled = UIColor(red: 0.961, green: 0.961, blue: 0.961, alpha: 1)
     public static let expCompositionButtonBorderColorNone = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0)
     public static let expCompositionButtonBorderColorPrimary = hsl(280, 40%, 45%)
     public static let expCompositionButtonBorderColorSecondary = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1)
     public static let expCompositionButtonBorderRadiusDefault = 4px
     public static let expCompositionButtonBorderRadiusPill = 9999px
+    public static let expCompositionButtonFont = Open Sans, sans-serif
     public static let expCompositionButtonFontSizeLarge = 1.25rem
     public static let expCompositionButtonFontSizeMedium = 1rem
     public static let expCompositionButtonFontSizeSmall = .875rem

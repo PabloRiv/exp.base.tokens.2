@@ -12,6 +12,7 @@
   <color name="exp_composition_icon_stroke_default">hsl(0, 0%, 1%)</color>
   <color name="exp_composition_accordion_background_color_primary">hsl(280, 60%, 65%)</color>
   <color name="exp_composition_accordion_background_color_secondary">hsl(220, 100%, 53%)</color>
+  <color name="exp_composition_accordion_background_color_terciary">hsl(195, 85%, 50%)</color>
   <color name="exp_composition_accordion_background_color_disabled">hsl(0, 0%, 85%)</color>
   <color name="exp_composition_accordion_background_color_hover_not_disabled">hsl(220, 100%, 33%)</color>
   <color name="exp_composition_accordion_background_color_hover_disabled">hsl(0, 0%, 75%)</color>
@@ -60,6 +61,7 @@
   <color name="exp_composition_action_menu_result_item_background_color_hover">hsl(220, 100%, 53%)</color>
   <color name="exp_composition_button_background_color_primary">hsl(280, 40%, 45%)</color>
   <color name="exp_composition_button_background_color_secondary">hsl(220, 100%, 53%)</color>
+  <color name="exp_composition_button_background_color_terciary">hsl(195, 85%, 50%)</color>
   <color name="exp_composition_button_background_color_disabled">hsl(0, 0%, 85%)</color>
   <color name="exp_composition_button_background_color_hover_not_disabled">hsl(220, 100%, 33%)</color>
   <color name="exp_composition_button_background_color_hover_disabled">hsl(0, 0%, 75%)</color>
