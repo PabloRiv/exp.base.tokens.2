@@ -658,7 +658,7 @@
             "type": "borderRadius"
           },
           "border": {
-            "value": "1px solid {exp.color.purple.600}",
+            "value": "1px solid {exp.border.inputs.outside}",
             "type": "color"
           },
           "background-color": {
@@ -714,7 +714,7 @@
             "type": "spacing"
           },
           "width": {
-            "value": "100%",
+            "value": "{exp.space.48x}",
             "type": "spacing"
           },
           "height": {
@@ -3691,6 +3691,17 @@
         "border-radius": {
           "value": "{exp.units.border-radius.sm}",
           "type": "borderRadius"
+        }
+      }
+    },
+    "border": {
+      "inputs": {
+        "outside": {
+          "value": {
+            "color": "#ccc",
+            "width": "1px"
+          },
+          "type": "border"
         }
       }
     }
