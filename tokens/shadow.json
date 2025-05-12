@@ -52,7 +52,7 @@
       "boxShadow": {
         "dropShadow": {
           "value": {
-            "x": "0",
+            "x": "3",
             "y": "4px",
             "blur": "6px",
             "spread": "0px",
