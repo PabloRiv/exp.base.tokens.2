@@ -49,9 +49,16 @@
         "value": "rgba(0, 0, 0, 0.5)",
         "type": "shadow"
       },
-      "box": {
-        "one": {
-          "value": "0 4px 6px rgba(0, 0, 0, 0.1)",
+      "boxShadow": {
+        "dropShadow": {
+          "value": {
+            "x": "0",
+            "y": "4px",
+            "blur": "6px",
+            "spread": "0px",
+            "color": "rgba(0, 0, 0, 0.1)",
+            "type": "dropShadow"
+          },
           "type": "shadow"
         }
       }
