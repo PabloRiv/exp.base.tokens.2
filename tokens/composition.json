@@ -448,7 +448,7 @@
             "type": "borderRadius"
           },
           "shadow": {
-            "value": "{exp.shadow.box.one}",
+            "value": "{exp.shadow.boxShadow.dropShadow}",
             "type": "shadow"
           },
           "z-index": {
@@ -754,7 +754,7 @@
             "type": "borderRadius"
           },
           "shadow": {
-            "value": "{exp.shadow.box.one}",
+            "value": "{exp.shadow.boxShadow.dropShadow}",
             "type": "shadow"
           },
           "z-index": {
@@ -1012,7 +1012,7 @@
         },
         "shadow": {
           "dropdown-menu-box": {
-            "value": "{exp.shadow.box.one}",
+            "value": "{exp.shadow.boxShadow.dropShadow}",
             "type": "shadow"
           }
         },
@@ -2628,7 +2628,7 @@
             "type": "color"
           },
           "shadow": {
-            "value": "{exp.shadow.box.one}",
+            "value": "{exp.shadow.boxShadow.dropShadow}",
             "type": "shadow"
           },
           "border-radius": {
@@ -3655,7 +3655,7 @@
           "type": "borderRadius"
         },
         "shadow-box": {
-          "value": "{exp.shadow.box.one}",
+          "value": "{exp.shadow.boxShadow.dropShadow}",
           "type": "shadow"
         },
         "z-index": {
