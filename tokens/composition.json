@@ -702,6 +702,14 @@
           "font-size": {
             "value": "{exp.font.fontSize.sm}",
             "type": "borderWidth"
+          },
+          "width": {
+            "value": "22px",
+            "type": "size"
+          },
+          "height": {
+            "value": "19px",
+            "type": "size"
           }
         },
         "list": {
