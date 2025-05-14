@@ -528,6 +528,13 @@
           "danger-hover": {
             "value": "{exp.color.red.300}",
             "type": "color"
+          },
+          "padding": {
+            "value": {
+              "x": "{exp.space.2x}",
+              "y": "{exp.space.4x}"
+            },
+            "type": "space"
           }
         },
         "text-color": {
@@ -3108,7 +3115,7 @@
       "textinput": {
         "background-color": {
           "default": {
-            "value": "{exp.color.white.500}",
+            "value": "{exp.color.white.100}",
             "type": "color"
           },
           "focus": {
@@ -3122,11 +3129,26 @@
           "numeric": {
             "value": "{exp.color.white.500}",
             "type": "color"
+          },
+          "border": {
+            "value": {
+              "width": "1px",
+              "style": "solid",
+              "color:": "{exp.color.gray.300}"
+            },
+            "type": "other"
+          },
+          "borderRadius": {
+            "value": "{exp.units.border-radius.sm}",
+            "type": "units"
           }
         },
         "padding": {
           "default": {
-            "value": "8px 12px",
+            "value": {
+              "x": "8px",
+              "y": "12px"
+            },
             "type": "spacing"
           }
         },
@@ -3292,6 +3314,10 @@
           "margin": {
             "value": "{exp.space.2x} 0 0 0",
             "type": "spacing"
+          },
+          "borderColor": {
+            "value": "{exp.color.red.500}",
+            "type": "color"
           }
         }
       },
