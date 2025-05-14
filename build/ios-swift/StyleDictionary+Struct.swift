@@ -275,7 +275,6 @@ internal struct StyleDictionaryStruct {
     internal static let expCompositionButtonBackgroundColorDisabled = hsl(0, 0%, 85%)
     internal static let expCompositionButtonBackgroundColorHoverDisabled = hsl(0, 0%, 75%)
     internal static let expCompositionButtonBackgroundColorHoverNotDisabled = hsl(220, 100%, 33%)
-    internal static let expCompositionButtonBackgroundColorPadding = [object Object]
     internal static let expCompositionButtonBackgroundColorPrimary = hsl(280, 40%, 45%)
     internal static let expCompositionButtonBackgroundColorSecondary = hsl(220, 100%, 53%)
     internal static let expCompositionButtonBackgroundColorTerciary = hsl(195, 85%, 50%)
@@ -865,8 +864,6 @@ internal struct StyleDictionaryStruct {
     internal static let expCompositionTextareaTextColorPlaceholder = hsl(0, 0%, 55%)
     internal static let expCompositionTextareaTransition = transform 0.3s ease-out
     internal static let expCompositionTextareaWidth = 16rem
-    internal static let expCompositionTextinputBackgroundColorBorder = [object Object]
-    internal static let expCompositionTextinputBackgroundColorBorderRadius = 4px
     internal static let expCompositionTextinputBackgroundColorDefault = hsl(0, 0%, 100%)
     internal static let expCompositionTextinputBackgroundColorDisabled = hsl(0, 0%, 95%)
     internal static let expCompositionTextinputBackgroundColorFocus = UIColor(red: 0.878, green: 0.969, blue: 0.980, alpha: 1)
@@ -892,10 +889,11 @@ internal struct StyleDictionaryStruct {
     internal static let expCompositionTextinputErrorMessageFontWeight = 400
     internal static let expCompositionTextinputErrorMessageMargin = .5rem 0 0 0
     internal static let expCompositionTextinputErrorMessageTextColor = hsl(0, 95%, 50%)
-    internal static let expCompositionTextinputInputBorder = 1px solid hsl(0, 0%, 75%)
+    internal static let expCompositionTextinputInputBorderColor = hsl(0, 0%, 75%)
     internal static let expCompositionTextinputInputBorderFocus = hsl(220, 100%, 53%)
-    internal static let expCompositionTextinputInputBorderRadius = 4px
     internal static let expCompositionTextinputInputBorderRadiusNumeric = 4px
+    internal static let expCompositionTextinputInputBorderStyle = solid
+    internal static let expCompositionTextinputInputBorderWidth = 1px
     internal static let expCompositionTextinputInputFontSize = 1rem
     internal static let expCompositionTextinputInputGap = .5rem
     internal static let expCompositionTextinputInputPadding = .5rem
@@ -909,7 +907,8 @@ internal struct StyleDictionaryStruct {
     internal static let expCompositionTextinputLabelFontWeight = 400
     internal static let expCompositionTextinputLabelMargin = .5rem 0 0 0
     internal static let expCompositionTextinputLabelTextColor = hsl(0, 0%, 20%)
-    internal static let expCompositionTextinputPaddingDefault = [object Object]
+    internal static let expCompositionTextinputPaddingDefaultX = 1rem
+    internal static let expCompositionTextinputPaddingDefaultY = .5rem
     internal static let expCompositionTextinputWrapperErrorBorderColor = UIColor(red: 0.878, green: 0.282, blue: 0.282, alpha: 1)
     internal static let expCompositionToastBackgroundColorError = hsl(0, 95%, 50%)
     internal static let expCompositionToastBackgroundColorInfo = hsl(220, 60%, 65%)
