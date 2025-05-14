@@ -307,6 +307,7 @@
   <color name="exp_composition_textinput_background_color_focus">#ffe0f7fa</color>
   <color name="exp_composition_textinput_background_color_disabled">hsl(0, 0%, 95%)</color>
   <color name="exp_composition_textinput_background_color_numeric">hsl(0, 0%, 95%)</color>
+  <color name="exp_composition_textinput_input_border_color">hsl(0, 0%, 75%)</color>
   <color name="exp_composition_textinput_input_border_focus">hsl(220, 100%, 53%)</color>
   <color name="exp_composition_textinput_input_text_color_placeholder">hsl(0, 0%, 55%)</color>
   <color name="exp_composition_textinput_input_text_color_disabled">hsl(0, 0%, 75%)</color>

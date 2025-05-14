@@ -275,7 +275,6 @@ public enum StyleDictionaryEnum {
     public static let expCompositionButtonBackgroundColorDisabled = hsl(0, 0%, 85%)
     public static let expCompositionButtonBackgroundColorHoverDisabled = hsl(0, 0%, 75%)
     public static let expCompositionButtonBackgroundColorHoverNotDisabled = hsl(220, 100%, 33%)
-    public static let expCompositionButtonBackgroundColorPadding = [object Object]
     public static let expCompositionButtonBackgroundColorPrimary = hsl(280, 40%, 45%)
     public static let expCompositionButtonBackgroundColorSecondary = hsl(220, 100%, 53%)
     public static let expCompositionButtonBackgroundColorTerciary = hsl(195, 85%, 50%)
@@ -865,8 +864,6 @@ public enum StyleDictionaryEnum {
     public static let expCompositionTextareaTextColorPlaceholder = hsl(0, 0%, 55%)
     public static let expCompositionTextareaTransition = transform 0.3s ease-out
     public static let expCompositionTextareaWidth = 16rem
-    public static let expCompositionTextinputBackgroundColorBorder = [object Object]
-    public static let expCompositionTextinputBackgroundColorBorderRadius = 4px
     public static let expCompositionTextinputBackgroundColorDefault = hsl(0, 0%, 100%)
     public static let expCompositionTextinputBackgroundColorDisabled = hsl(0, 0%, 95%)
     public static let expCompositionTextinputBackgroundColorFocus = UIColor(red: 0.878, green: 0.969, blue: 0.980, alpha: 1)
@@ -892,10 +889,11 @@ public enum StyleDictionaryEnum {
     public static let expCompositionTextinputErrorMessageFontWeight = 400
     public static let expCompositionTextinputErrorMessageMargin = .5rem 0 0 0
     public static let expCompositionTextinputErrorMessageTextColor = hsl(0, 95%, 50%)
-    public static let expCompositionTextinputInputBorder = 1px solid hsl(0, 0%, 75%)
+    public static let expCompositionTextinputInputBorderColor = hsl(0, 0%, 75%)
     public static let expCompositionTextinputInputBorderFocus = hsl(220, 100%, 53%)
-    public static let expCompositionTextinputInputBorderRadius = 4px
     public static let expCompositionTextinputInputBorderRadiusNumeric = 4px
+    public static let expCompositionTextinputInputBorderStyle = solid
+    public static let expCompositionTextinputInputBorderWidth = 1px
     public static let expCompositionTextinputInputFontSize = 1rem
     public static let expCompositionTextinputInputGap = .5rem
     public static let expCompositionTextinputInputPadding = .5rem
@@ -909,7 +907,8 @@ public enum StyleDictionaryEnum {
     public static let expCompositionTextinputLabelFontWeight = 400
     public static let expCompositionTextinputLabelMargin = .5rem 0 0 0
     public static let expCompositionTextinputLabelTextColor = hsl(0, 0%, 20%)
-    public static let expCompositionTextinputPaddingDefault = [object Object]
+    public static let expCompositionTextinputPaddingDefaultX = 1rem
+    public static let expCompositionTextinputPaddingDefaultY = .5rem
     public static let expCompositionTextinputWrapperErrorBorderColor = UIColor(red: 0.878, green: 0.282, blue: 0.282, alpha: 1)
     public static let expCompositionToastBackgroundColorError = hsl(0, 95%, 50%)
     public static let expCompositionToastBackgroundColorInfo = hsl(220, 60%, 65%)
