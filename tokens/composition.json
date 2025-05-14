@@ -1847,7 +1847,7 @@
       "card": {
         "background-color": {
           "default": {
-            "value": "{exp.color.white.500}",
+            "value": "{exp.color.white.100}",
             "type": "color"
           },
           "footer": {
