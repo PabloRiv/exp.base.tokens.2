@@ -208,7 +208,7 @@
   <color name="exp_composition_tab_border_color_disabled">#fff5f5f5</color>
   <color name="exp_composition_tab_border_color_none">#00000000</color>
   <color name="exp_composition_tab_transition_button">color 0.3s, border-bottom-color 0.3s</color>
-  <color name="exp_composition_card_background_color_default">hsl(0, 0%, 95%)</color>
+  <color name="exp_composition_card_background_color_default">hsl(0, 0%, 100%)</color>
   <color name="exp_composition_card_background_color_footer">hsl(0, 0%, 98%)</color>
   <color name="exp_composition_card_text_color_primary">hsl(0, 0%, 2%)</color>
   <color name="exp_composition_card_text_color_secondary">hsl(0, 0%, 95%)</color>
@@ -303,7 +303,7 @@
   <color name="exp_composition_radio_disabled_border_color">hsl(0, 0%, 45%)</color>
   <color name="exp_composition_radio_label_text_color">hsl(0, 0%, 2%)</color>
   <color name="exp_composition_radio_group_indicator_background_color">#00000000</color>
-  <color name="exp_composition_textinput_background_color_default">hsl(0, 0%, 95%)</color>
+  <color name="exp_composition_textinput_background_color_default">hsl(0, 0%, 100%)</color>
   <color name="exp_composition_textinput_background_color_focus">#ffe0f7fa</color>
   <color name="exp_composition_textinput_background_color_disabled">hsl(0, 0%, 95%)</color>
   <color name="exp_composition_textinput_background_color_numeric">hsl(0, 0%, 95%)</color>
@@ -318,6 +318,7 @@
   <color name="exp_composition_textinput_button_text_color_hover">hsl(0, 0%, 95%)</color>
   <color name="exp_composition_textinput_button_text_color_disabled">hsl(0, 0%, 75%)</color>
   <color name="exp_composition_textinput_error_message_text_color">hsl(0, 95%, 50%)</color>
+  <color name="exp_composition_textinput_error_message_border_color">hsl(0, 95%, 50%)</color>
   <color name="exp_composition_textarea_background_color_default">#ffffffff</color>
   <color name="exp_composition_textarea_border_focus">hsl(220, 100%, 53%)</color>
   <color name="exp_composition_textarea_text_color_placeholder">hsl(0, 0%, 55%)</color>

@@ -603,25 +603,34 @@
         },
         "padding": {
           "small": {
-            "value": {
-              "x": "1rem",
-              "y": ".5rem"
+            "x": {
+              "value": "{exp.space.4x}",
+              "type": "spacing"
             },
-            "type": "spacing"
+            "y": {
+              "value": "{exp.space.2x}",
+              "type": "spacing"
+            }
           },
           "medium": {
-            "value": {
-              "x": "1.25rem",
-              "y": ".75rem"
+             "x": {
+              "value": "{exp.space.5x}",
+              "type": "spacing"
             },
-            "type": "spacing"
+            "y": {
+              "value": "{exp.space.3x}",
+              "type": "spacing"
+            }
           },
           "large": {
-            "value": {
-              "x": "1.5rem",
-              "y": "1rem"
+            "x": {
+              "value": "{exp.space.6x}",
+              "type": "spacing"
             },
-            "type": "spacing"
+            "y": {
+              "value": "{exp.space.4x}",
+              "type": "spacing"
+            }
           }
         },
         "border-radius": {
