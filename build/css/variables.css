@@ -247,6 +247,7 @@
   --exp-composition-button-background-color-hover-disabled: hsl(0, 0%, 75%);
   --exp-composition-button-background-color-danger: hsl(0, 95%, 50%);
   --exp-composition-button-background-color-danger-hover: hsl(0, 75%, 70%);
+  --exp-composition-button-background-color-padding: [object Object];
   --exp-composition-button-text-color-primary: hsl(0, 0%, 95%);
   --exp-composition-button-text-color-secondary: hsl(0, 0%, 95%);
   --exp-composition-button-text-color-disabled: hsl(0, 0%, 45%);
@@ -261,9 +262,12 @@
   --exp-composition-button-border-color-secondary: #cccccc;
   --exp-composition-button-border-color-disabled: #f5f5f5;
   --exp-composition-button-border-color-none: rgba(0, 0, 0, 0);
-  --exp-composition-button-padding-small: .5rem 1rem;
-  --exp-composition-button-padding-medium: .75rem 1.25rem;
-  --exp-composition-button-padding-large: 1rem 1.5rem;
+  --exp-composition-button-padding-small-x: 1rem;
+  --exp-composition-button-padding-small-y: .5rem;
+  --exp-composition-button-padding-medium-x: 1.25rem;
+  --exp-composition-button-padding-medium-y: .75rem;
+  --exp-composition-button-padding-large-x: 1.5rem;
+  --exp-composition-button-padding-large-y: 1rem;
   --exp-composition-button-border-radius-default: 4px;
   --exp-composition-button-border-radius-pill: 9999px;
   --exp-composition-button-font: Open Sans, sans-serif;
@@ -528,7 +532,7 @@
   --exp-composition-tab-gap-bar: .5rem;
   --exp-composition-tab-border-radius-pill: 9999px;
   --exp-composition-tab-border-width: 1px;
-  --exp-composition-card-background-color-default: hsl(0, 0%, 95%);
+  --exp-composition-card-background-color-default: hsl(0, 0%, 100%);
   --exp-composition-card-background-color-footer: hsl(0, 0%, 98%);
   --exp-composition-card-font-family-body: Open Sans, sans-serif;
   --exp-composition-card-shadow-default: 0px 12px 15px rgba(0, 0, 0, 0.15), 0px 6px 10px rgba(0, 0, 0, 0.1);
@@ -804,11 +808,13 @@
   --exp-composition-radio-group-indicator-border-radius: 50%;
   --exp-composition-radio-group-indicator-transition: background-color 0.3s ease;
   --exp-composition-radio-group-indicator-margin-right: .5rem;
-  --exp-composition-textinput-background-color-default: hsl(0, 0%, 95%);
+  --exp-composition-textinput-background-color-default: hsl(0, 0%, 100%);
   --exp-composition-textinput-background-color-focus: #e0f7fa;
   --exp-composition-textinput-background-color-disabled: hsl(0, 0%, 95%);
   --exp-composition-textinput-background-color-numeric: hsl(0, 0%, 95%);
-  --exp-composition-textinput-padding-default: 8px 12px;
+  --exp-composition-textinput-background-color-border: [object Object];
+  --exp-composition-textinput-background-color-border-radius: 4px;
+  --exp-composition-textinput-padding-default: [object Object];
   --exp-composition-textinput-border-radius-default: 4px;
   --exp-composition-textinput-input-width: 16rem;
   --exp-composition-textinput-input-width-numeric: 4rem;
@@ -847,6 +853,7 @@
   --exp-composition-textinput-error-message-font-weight: 400;
   --exp-composition-textinput-error-message-font-family: Open Sans, sans-serif;
   --exp-composition-textinput-error-message-margin: .5rem 0 0 0;
+  --exp-composition-textinput-error-message-border-color: hsl(0, 95%, 50%);
   --exp-composition-textarea-background-color-default: #ffffff;
   --exp-composition-textarea-width: 16rem;
   --exp-composition-textarea-padding: .5rem;
