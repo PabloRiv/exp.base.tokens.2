@@ -603,15 +603,24 @@
         },
         "padding": {
           "small": {
-            "value": ".5rem 1rem",
+            "value": {
+              "x": "1rem",
+              "y": ".5rem"
+            },
             "type": "spacing"
           },
           "medium": {
-            "value": ".75rem 1.25rem",
+            "value": {
+              "x": "1.25rem",
+              "y": ".75rem"
+            },
             "type": "spacing"
           },
           "large": {
-            "value": "1rem 1.5rem",
+            "value": {
+              "x": "1.5rem",
+              "y": "1rem"
+            },
             "type": "spacing"
           }
         },
